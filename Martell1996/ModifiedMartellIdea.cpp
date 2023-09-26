@@ -840,13 +840,16 @@ void ModifiedMartellIdea::updateStatistics()
     int menPromoted = 0;
     int womenPromoted = 0;
 
-    for(int i = 0; i < m_numLevels; i++)
+    //Only check promotions from 1 or two levels from the top.
+    for(int i = 1; i < 3; i++)
     {
         menPotentiallyPromoted += m_levels.at(i)->menPotentiallyPromoted();
         womenPotentiallyPromoted += m_levels.at(i)->womenPotentiallyPromoted();
         menPromoted += m_levels.at(i)->menPromoted();
         womenPromoted += m_levels.at(i)->womenPromoted();
     }
+
+    qDebug() << "Men promoted: " << menPromoted;
 
     if(menPotentiallyPromoted == 0 || womenPotentiallyPromoted == 0)
     {
