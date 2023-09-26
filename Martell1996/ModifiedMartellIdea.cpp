@@ -670,7 +670,7 @@ void ModifiedMartellIdea::bulkRun()
         int menPromoted = 0;
         int womenPromoted = 0;
 
-        for(int i = 0; i < m_numLevels; i++)
+        for(int i = 1; i < 3; i++)
         {
             menPotentiallyPromoted += m_levels.at(i)->menPotentiallyPromoted();
             womenPotentiallyPromoted += m_levels.at(i)->womenPotentiallyPromoted();
@@ -848,8 +848,6 @@ void ModifiedMartellIdea::updateStatistics()
         menPromoted += m_levels.at(i)->menPromoted();
         womenPromoted += m_levels.at(i)->womenPromoted();
     }
-
-    qDebug() << "Men promoted: " << menPromoted;
 
     if(menPotentiallyPromoted == 0 || womenPotentiallyPromoted == 0)
     {
