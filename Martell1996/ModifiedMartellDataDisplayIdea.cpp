@@ -137,17 +137,31 @@ void ModifiedMartellDataDisplayIdea::prepareData()
     emit displayAveragePromotionCycles(averagePromotionCycles);
 
     //Impact factor and odds ratio.
-    double averageImpactFactor = 0.0;
-    double averageOddsRatio = 0.0;
+    double averageImpactFactorTop = 0.0;
+    double averageOddsRatioTop = 0.0;
+    double averageImpactFactorTop2 = 0.0;
+    double averageOddsRatioTop2 = 0.0;
+    double averageImpactFactorBottom = 0.0;
+    double averageOddsRatioBottom = 0.0;
+
     for(int i = 0; i < runsData.length(); i++)
     {
-        averageImpactFactor += runsData.at(i).impactFactor();
-        averageOddsRatio += runsData.at(i).oddsRatio();
+        averageImpactFactorTop += runsData.at(i).impactFactorTop();
+        averageImpactFactorTop2 += runsData.at(i).impactFactorTop2();
+        averageImpactFactorBottom += runsData.at(i).impactFactorBottom();
+        averageOddsRatioTop += runsData.at(i).oddsRatioTop();
+        averageOddsRatioTop2 += runsData.at(i).oddsRatioTop2();
+        averageOddsRatioBottom += runsData.at(i).oddsRatioBottom();
     }
-    averageImpactFactor /= runsData.length();
-    averageOddsRatio /= runsData.length();
-    emit displayAverageImpactFactor(averageImpactFactor);
-    emit displayAverageOddsRatio(averageOddsRatio);
+
+    averageImpactFactorTop /= runsData.length();
+    averageImpactFactorTop2 /= runsData.length();
+    averageImpactFactorBottom /= runsData.length();
+    averageOddsRatioTop /= runsData.length();
+    averageOddsRatioTop2 /= runsData.length();
+    averageOddsRatioBottom /= runsData.length();
+    emit displayAverageImpactFactor(averageImpactFactorTop, averageImpactFactorTop2, averageImpactFactorBottom);
+    emit displayAverageOddsRatio(averageOddsRatioTop, averageOddsRatioTop2, averageOddsRatioBottom);
 
     //Number of runs used to calculate the data
     emit displayNumberRuns(runsData.length());

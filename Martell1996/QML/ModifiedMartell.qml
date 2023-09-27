@@ -120,7 +120,7 @@ Rectangle
         id: impactFactorRect;
         color: "darkGray"
         width: 120
-        height: 44
+        height: 64
         radius: 4
         y: 6
         x: 430
@@ -130,7 +130,8 @@ Rectangle
         {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 3
-            text: "Impact Factor"
+            text: "Impact Factor\nTop 2 Levels"
+            horizontalAlignment: Text.AlignHCenter
             font.bold: true
             font.pointSize: 12
             color: "black"
@@ -153,9 +154,9 @@ Rectangle
         id: oddsRatioRect
         color: "darkGray"
         width: 120
-        height: 44
+        height: 64
         radius: 4
-        y: 54
+        y: 74
         x: 430
         visible: false;
 
@@ -163,7 +164,8 @@ Rectangle
         {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 3
-            text: "Odds Ratio"
+            text: "Odds Ratio\nTop 2 Levels"
+            horizontalAlignment: Text.AlignHCenter
             font.bold: true
             font.pointSize: 12
             color: "black"

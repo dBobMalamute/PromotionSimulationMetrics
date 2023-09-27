@@ -182,9 +182,10 @@ Rectangle
         Connections
         {
             target: idea
-            function onDisplayAverageImpactFactor(num)
+            function onDisplayAverageImpactFactor(top, top2, bot)
             {
-                impactFactorText.text = "Average Impact Factor: " + num.toFixed(2);
+                impactFactorText.text = "Average Impact Factor. Top Level: " + top.toFixed(2)
+                + "\nTop 2 Levels: " + top2.toFixed(2) + ", Bottom Level: " + bot.toFixed(2);
             }
         }
     }
@@ -204,13 +205,13 @@ Rectangle
         Connections
         {
             target: idea
-            function onDisplayAverageOddsRatio(num)
+            function onDisplayAverageOddsRatio(top, top2, bot)
             {
-                oddsRatioText.text = "Average Odds Ratio: " + num.toFixed(2);
+                oddsRatioText.text = "Average Odds Ratio. Top Level: " + top.toFixed(2)
+                + "\nTop 2 Levels: " + top2.toFixed(2) + ", Bottom Level: " + bot.toFixed(2);
             }
         }
     }
-
 
     Rectangle
     {

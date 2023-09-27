@@ -7,12 +7,18 @@ struct runData
 {
 public:
     runData(QList<double> percentWomen, QList<double> averageScore, int promotionCycles,
-double impactFactor, double oddsRatio) :
+            double impactFactorTop, double impactFactorTop2, double impactFactorBottom,
+            double oddsRatioTop, double oddsRatioTop2, double oddsRatioBottom) :
         m_percentWomen(percentWomen),
         m_averageScore(averageScore),
         m_promotionCycles(promotionCycles),
-        m_impactFactor(impactFactor),
-        m_oddsRatio(oddsRatio)
+
+        m_impactFactorTop(impactFactorTop),
+        m_impactFactorTop2(impactFactorTop2),
+        m_impactFactorBottom(impactFactorBottom),
+        m_oddsRatioTop(oddsRatioTop),
+        m_oddsRatioTop2(oddsRatioTop2),
+        m_oddsRatioBottom(oddsRatioBottom)
     {
 
     }
@@ -20,15 +26,27 @@ double impactFactor, double oddsRatio) :
     QList<double> percentWomen() const;
     QList<double> averageScore() const;
     int promotionCycles() const;
-    double impactFactor() const;
-    double oddsRatio() const;
+
+    double impactFactorTop() const;
+    double impactFactorTop2() const;
+    double impactFactorBottom() const;
+
+    double oddsRatioTop() const;
+    double oddsRatioTop2() const;
+    double oddsRatioBottom() const;
 
 private:
     QList<double> m_percentWomen;
     QList<double> m_averageScore;
     int m_promotionCycles;
-    double m_impactFactor;
-    double m_oddsRatio;
+
+    double m_impactFactorTop;
+    double m_impactFactorTop2;
+    double m_impactFactorBottom;
+
+    double m_oddsRatioTop;
+    double m_oddsRatioTop2;
+    double m_oddsRatioBottom;
 };
 
 struct ModifiedMartellDataTypeAttributes : public DataTypeAttributes

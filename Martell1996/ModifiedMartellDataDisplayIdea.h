@@ -25,8 +25,8 @@ public:
 
 signals:
     void displayAveragePromotionCycles(double cycles);
-    void displayAverageImpactFactor(double num);
-    void displayAverageOddsRatio(double num);
+    void displayAverageImpactFactor(double top, double top2, double bot);
+    void displayAverageOddsRatio(double top, double top2, double bot);
     void displayNumberRuns(int numRuns);
 
 private:

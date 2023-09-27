@@ -15,14 +15,34 @@ int runData::promotionCycles() const
     return m_promotionCycles;
 }
 
-double runData::impactFactor() const
+double runData::impactFactorTop() const
 {
-    return m_impactFactor;
+    return m_impactFactorTop;
 }
 
-double runData::oddsRatio() const
+double runData::impactFactorTop2() const
 {
-    return m_oddsRatio;
+    return m_impactFactorTop2;
+}
+
+double runData::impactFactorBottom() const
+{
+    return m_impactFactorBottom;
+}
+
+double runData::oddsRatioTop() const
+{
+    return m_oddsRatioTop;
+}
+
+double runData::oddsRatioTop2() const
+{
+    return m_oddsRatioTop2;
+}
+
+double runData::oddsRatioBottom() const
+{
+    return m_oddsRatioBottom;
 }
 
 ModifiedMartellDataTypeAttributes::ModifiedMartellDataTypeAttributes()
