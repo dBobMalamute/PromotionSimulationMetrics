@@ -104,15 +104,15 @@ Rectangle
             impactFactorRect.visible = false;
 
         }
-        function onShowOddsRatio(num)
-        {
-            oddsRatioRect.visible = true;
-            oddsRatioText.text = num.toPrecision(4);
-        }
-        function onHideOddsRatio()
-        {
-            oddsRatioRect.visible = false;
-        }
+//        function onShowOddsRatio(num)
+//        {
+//            oddsRatioRect.visible = true;
+//            oddsRatioText.text = num.toPrecision(4);
+//        }
+//        function onHideOddsRatio()
+//        {
+//            oddsRatioRect.visible = false;
+//        }
     }
 
     Rectangle
@@ -149,52 +149,34 @@ Rectangle
         }
     }
 
-    Rectangle
-    {
-        id: oddsRatioRect
-        color: "darkGray"
-        width: 120
-        height: 64
-        radius: 4
-        y: 74
-        x: 430
-        visible: false;
-
-        Text
-        {
-            anchors.horizontalCenter: parent.horizontalCenter
-            y: 3
-            text: "Odds Ratio\nTop 2 Levels"
-            horizontalAlignment: Text.AlignHCenter
-            font.bold: true
-            font.pointSize: 12
-            color: "black"
-        }
-        Text
-        {
-            id: oddsRatioText
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            anchors.bottomMargin: 3
-            text: "1.00"
-            font.bold: true
-            font.pointSize: 12
-            color: "black"
-        }
-    }
 //    Rectangle
 //    {
+//        id: oddsRatioRect
 //        color: "darkGray"
 //        width: 120
-//        height: 60
+//        height: 64
 //        radius: 4
-//        y: 6
-//        x: 420
+//        y: 74
+//        x: 430
+//        visible: false;
 
 //        Text
 //        {
-//            anchors.centerIn: parent
-//            text: "Impact Factor"
+//            anchors.horizontalCenter: parent.horizontalCenter
+//            y: 3
+//            text: "Odds Ratio\nTop 2 Levels"
+//            horizontalAlignment: Text.AlignHCenter
+//            font.bold: true
+//            font.pointSize: 12
+//            color: "black"
+//        }
+//        Text
+//        {
+//            id: oddsRatioText
+//            anchors.horizontalCenter: parent.horizontalCenter
+//            anchors.bottom: parent.bottom
+//            anchors.bottomMargin: 3
+//            text: "1.00"
 //            font.bold: true
 //            font.pointSize: 12
 //            color: "black"

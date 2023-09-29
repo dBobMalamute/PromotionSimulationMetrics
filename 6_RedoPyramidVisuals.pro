@@ -187,5 +187,7 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
+QMAKE_LFLAGS_RELEASE += -s TOTAL_MEMORY=33554432
+
 DISTFILES += \
     math/special_functions/detail/lambert_w_lookup_table.ipp
