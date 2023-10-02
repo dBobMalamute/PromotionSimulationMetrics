@@ -182,36 +182,34 @@ Rectangle
         Connections
         {
             target: idea
-            function onDisplayAverageImpactFactor(top, top2, bot)
+            function onDisplayAverageImpactFactor(num)
             {
-                impactFactorText.text = "Average Impact Factor. Top Level: " + top.toFixed(2)
-                + "\nTop 2 Levels: " + top2.toFixed(2) + ", Bottom Level: " + bot.toFixed(2);
+                impactFactorText.text = "Average Impact Factor " + num.toFixed(3);
             }
         }
     }
 
-//    Rectangle
-//    {
-//        y: 389
-//        height: 28
-//        color: "#ececec"
-//        width: parent.width
-//        Text
-//        {
-//            id: oddsRatioText
-//            anchors.centerIn: parent;
-//            visible: idea.valid;
-//        }
-//        Connections
-//        {
-//            target: idea
-//            function onDisplayAverageOddsRatio(top, top2, bot)
-//            {
-//                oddsRatioText.text = "Average Odds Ratio. Top Level: " + top.toFixed(2)
-//                + "\nTop 2 Levels: " + top2.toFixed(2) + ", Bottom Level: " + bot.toFixed(2);
-//            }
-//        }
-//    }
+    Rectangle
+    {
+        y: 389
+        height: 28
+        color: "#ececec"
+        width: parent.width
+        Text
+        {
+            id: oddsRatioText
+            anchors.centerIn: parent;
+            visible: idea.valid;
+        }
+        Connections
+        {
+            target: idea
+            function onDisplayAverageOddsRatio(num)
+            {
+                oddsRatioText.text = "Average Odds Ratio: " + num.toFixed(2);
+            }
+        }
+    }
 
     Rectangle
     {

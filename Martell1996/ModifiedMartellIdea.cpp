@@ -665,48 +665,20 @@ void ModifiedMartellIdea::bulkRun()
             meanScore.append(m_meanScore.at(i).toDouble());
         }
 
-        int menPotentiallyPromotedTop2 = 0; int womenPotentiallyPromotedTop2 = 0;
-        int menPromotedTop2 = 0; int womenPromotedTop2 = 0;
-        for(int i = 1; i < 3; i++)
+        int menPotentiallyPromoted = 0; int womenPotentiallyPromoted = 0;
+        int menPromoted = 0; int womenPromoted = 0;
+        for(int i = 1; i < 8; i++)
         {
-            menPotentiallyPromotedTop2 += m_levels.at(i)->menPotentiallyPromoted();
-            womenPotentiallyPromotedTop2 += m_levels.at(i)->womenPotentiallyPromoted();
-            menPromotedTop2 += m_levels.at(i)->menPromoted();
-            womenPromotedTop2 += m_levels.at(i)->womenPromoted();
+            menPotentiallyPromoted += m_levels.at(i)->menPotentiallyPromoted();
+            womenPotentiallyPromoted += m_levels.at(i)->womenPotentiallyPromoted();
+            menPromoted += m_levels.at(i)->menPromoted();
+            womenPromoted += m_levels.at(i)->womenPromoted();
         }
-        double p1Top2 = (1.0 * menPromotedTop2 / menPotentiallyPromotedTop2);
-        double p2Top2 = (1.0 * womenPromotedTop2 / womenPotentiallyPromotedTop2);
-
-        int menPotentiallyPromotedTop = 0; int womenPotentiallyPromotedTop = 0;
-        int menPromotedTop = 0; int womenPromotedTop = 0;
-        for(int i = 1; i < 2; i++)
-        {
-            menPotentiallyPromotedTop += m_levels.at(i)->menPotentiallyPromoted();
-            womenPotentiallyPromotedTop += m_levels.at(i)->womenPotentiallyPromoted();
-            menPromotedTop += m_levels.at(i)->menPromoted();
-            womenPromotedTop += m_levels.at(i)->womenPromoted();
-        }
-        double p1Top = (1.0 * menPromotedTop / menPotentiallyPromotedTop);
-        double p2Top = (1.0 * womenPromotedTop / womenPotentiallyPromotedTop);
-
-        int menPotentiallyPromotedBottom = 0; int womenPotentiallyPromotedBottom = 0;
-        int menPromotedBottom = 0; int womenPromotedBottom = 0;
-        for(int i = 7; i < 8; i++)
-        {
-            menPotentiallyPromotedBottom += m_levels.at(i)->menPotentiallyPromoted();
-            womenPotentiallyPromotedBottom += m_levels.at(i)->womenPotentiallyPromoted();
-            menPromotedBottom += m_levels.at(i)->menPromoted();
-            womenPromotedBottom += m_levels.at(i)->womenPromoted();
-        }
-        double p1Bottom = (1.0 * menPromotedBottom / menPotentiallyPromotedBottom);
-        double p2Bottom = (1.0 * womenPromotedBottom / womenPotentiallyPromotedBottom);
+        double p1 = (1.0 * menPromoted / menPotentiallyPromoted);
+        double p2 = (1.0 * womenPromoted / womenPotentiallyPromoted);
 
         runData data = runData(percentWomen, meanScore, m_promotionCycles,
-                               p1Top/p2Top, p1Top2/p2Top2, p1Bottom/p2Bottom,
-                               ((p1Top / (1.0 - p1Top)) / (p2Top / (1.0 - p2Top))),
-                               ((p1Top2 / (1.0 - p1Top2)) / (p2Top2 / (1.0 - p2Top2))),
-                               ((p1Bottom / (1.0 - p1Bottom)) / (p2Bottom / (1.0 - p2Bottom)))
-                               );
+                               p1/p2);
         m_bulkRunData.append(data);
     }
 
@@ -864,8 +836,8 @@ void ModifiedMartellIdea::updateStatistics()
     int menPromoted = 0;
     int womenPromoted = 0;
 
-    //Only check promotions from 1 or two levels from the top.
-    for(int i = 1; i < 3; i++)
+    //Check promotions entire company.
+    for(int i = 1; i < m_levels.size(); i++)
     {
         menPotentiallyPromoted += m_levels.at(i)->menPotentiallyPromoted();
         womenPotentiallyPromoted += m_levels.at(i)->womenPotentiallyPromoted();
@@ -876,7 +848,6 @@ void ModifiedMartellIdea::updateStatistics()
     if(menPotentiallyPromoted == 0 || womenPotentiallyPromoted == 0)
     {
         emit hideImpactFactor();
-        emit hideOddsRatio();
     }
     else
     {
@@ -887,11 +858,6 @@ void ModifiedMartellIdea::updateStatistics()
             emit hideImpactFactor();
         else
             emit showImpactFactor(p1/p2);
-
-        if(qFuzzyIsNull(p2) || qFuzzyIsNull(p1))
-            emit hideOddsRatio();
-        else
-            emit showOddsRatio((p1 / (1.0 - p1)) / (p2 / (1.0 - p2)));
     }
 }
 

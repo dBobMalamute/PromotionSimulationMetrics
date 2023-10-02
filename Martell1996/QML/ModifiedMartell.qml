@@ -104,15 +104,6 @@ Rectangle
             impactFactorRect.visible = false;
 
         }
-//        function onShowOddsRatio(num)
-//        {
-//            oddsRatioRect.visible = true;
-//            oddsRatioText.text = num.toPrecision(4);
-//        }
-//        function onHideOddsRatio()
-//        {
-//            oddsRatioRect.visible = false;
-//        }
     }
 
     Rectangle
@@ -120,7 +111,7 @@ Rectangle
         id: impactFactorRect;
         color: "darkGray"
         width: 120
-        height: 64
+        height: 44
         radius: 4
         y: 6
         x: 430
@@ -130,7 +121,7 @@ Rectangle
         {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 3
-            text: "Impact Factor\nTop 2 Levels"
+            text: "Impact Factor"
             horizontalAlignment: Text.AlignHCenter
             font.bold: true
             font.pointSize: 12
