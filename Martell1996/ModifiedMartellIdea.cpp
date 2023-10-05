@@ -680,10 +680,10 @@ void ModifiedMartellIdea::bulkRun()
 
         double pwb = 0.01 * m_percentWomen.at((m_percentWomen.length() - 1)).toDouble();
         double pwt = 0.01 * m_percentWomen.at(0).toDouble();
-        double oddsRatio = (pwb / (1.0 - pwb)) / (pwt / (1.0 - pwt));
+        double oddsRatio = (pwt / (1.0 - pwt)) / (pwb / (1.0 - pwb));
 
         bool valid = true;
-        if(qFuzzyIsNull(pwt))
+        if(qFuzzyIsNull(pwb))
             valid = false;
 
         runData data = runData(percentWomen, meanScore, m_promotionCycles,
@@ -871,7 +871,7 @@ void ModifiedMartellIdea::updateStatistics()
 
     double pwb = 0.01 * percentWomen.at(percentWomen.length() - 1).toDouble();
     double pwt = 0.01 * percentWomen.at(0).toDouble();
-    double oddsRatio = (pwb / (1.0 - pwb)) / (pwt / (1.0 - pwt));
+    double oddsRatio = (pwt / (1.0 - pwt)) / (pwb / (1.0 - pwb));
     emit showOddsRatio(oddsRatio);
 }
 
