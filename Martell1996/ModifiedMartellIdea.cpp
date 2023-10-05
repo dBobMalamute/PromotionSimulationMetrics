@@ -677,8 +677,17 @@ void ModifiedMartellIdea::bulkRun()
         double p1 = (1.0 * menPromoted / menPotentiallyPromoted);
         double p2 = (1.0 * womenPromoted / womenPotentiallyPromoted);
 
+
+        double pwb = 0.01 * m_percentWomen.at((m_percentWomen.length() - 1)).toDouble();
+        double pwt = 0.01 * m_percentWomen.at(0).toDouble();
+        double oddsRatio = (pwb / (1.0 - pwb)) / (pwt / (1.0 - pwt));
+
+        bool valid = true;
+        if(qFuzzyIsNull(pwt))
+            valid = false;
+
         runData data = runData(percentWomen, meanScore, m_promotionCycles,
-                               p1/p2);
+                               p1/p2, oddsRatio, valid);
         m_bulkRunData.append(data);
     }
 
@@ -859,6 +868,11 @@ void ModifiedMartellIdea::updateStatistics()
         else
             emit showImpactFactor(p1/p2);
     }
+
+    double pwb = 0.01 * percentWomen.at(percentWomen.length() - 1).toDouble();
+    double pwt = 0.01 * percentWomen.at(0).toDouble();
+    double oddsRatio = (pwb / (1.0 - pwb)) / (pwt / (1.0 - pwt));
+    emit showOddsRatio(oddsRatio);
 }
 
 void ModifiedMartellIdea::resetDisplay()

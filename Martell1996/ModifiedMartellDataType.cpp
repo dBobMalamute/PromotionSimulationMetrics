@@ -20,6 +20,16 @@ double runData::impactFactor() const
     return m_impactFactor;
 }
 
+double runData::oddsRatio() const
+{
+    return m_oddsRatio;
+}
+
+bool runData::validOddsRatio() const
+{
+    return m_validOddsRatio;
+}
+
 
 ModifiedMartellDataTypeAttributes::ModifiedMartellDataTypeAttributes()
 {

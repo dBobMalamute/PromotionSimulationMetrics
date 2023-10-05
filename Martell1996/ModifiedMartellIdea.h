@@ -117,6 +117,8 @@ signals:
 
     void showImpactFactor(double num);
     void hideImpactFactor();
+    void showOddsRatio(double num);
+    void hideOddsRatio();
 
     void numLevelsChanged(int numLevels);
     void positionsAtLevelChanged(QList<int> positionsAtLevel);

@@ -204,9 +204,9 @@ Rectangle
         Connections
         {
             target: idea
-            function onDisplayAverageOddsRatio(num)
+            function onDisplayAverageOddsRatio(avg, rejects)
             {
-                oddsRatioText.text = "Average Odds Ratio: " + num.toFixed(2);
+                oddsRatioText.text = "Average Odds Ratio: " + avg.toFixed(2) + ", Rejects: " + rejects;
             }
         }
     }

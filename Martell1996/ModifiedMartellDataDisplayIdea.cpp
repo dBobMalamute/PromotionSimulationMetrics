@@ -145,7 +145,23 @@ void ModifiedMartellDataDisplayIdea::prepareData()
     averageImpactFactor /= runsData.length();
 
     emit displayAverageImpactFactor(averageImpactFactor);
-    emit displayAverageOddsRatio(averagePercentWomen.last() / averagePercentWomen.first());
+
+    int numInvalid = 0;
+    double averageOddsRatio = 0.0;
+    for(int i = 0; i < runsData.length(); i++)
+    {
+        if(runsData.at(i).validOddsRatio())
+            averageOddsRatio += runsData.at(i).oddsRatio();
+        else
+            numInvalid++;
+    }
+    averageOddsRatio /= (runsData.length() - numInvalid);
+
+    // double pwb = 0.01 * percentWomen.at(percentWomen.length() - 1).toDouble();
+    // double pwt = 0.01 * percentWomen.at(0).toDouble();
+    // double oddsRatio = (pwb / (1.0 - pwb)) / (pwt / (1.0 - pwt));
+
+    emit displayAverageOddsRatio(averageOddsRatio, numInvalid);
 
     //Number of runs used to calculate the data
     emit displayNumberRuns(runsData.length());
