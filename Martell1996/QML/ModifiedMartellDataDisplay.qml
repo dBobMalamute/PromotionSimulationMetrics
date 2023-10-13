@@ -184,7 +184,7 @@ Rectangle
             target: idea
             function onDisplayAverageImpactFactor(num)
             {
-                impactFactorText.text = "Average Impact Factor " + num.toFixed(3);
+                impactFactorText.text = "Average Impact Ratio " + num.toFixed(3);
             }
         }
     }

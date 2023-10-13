@@ -14,8 +14,7 @@ ModifiedMartellPerson::ModifiedMartellPerson(QColor color, double score, bool or
 
 ModifiedMartellPerson::~ModifiedMartellPerson()
 {
-    if(dotMade && !fadingOut)
-        m_visibleDot->deleteLater();
+
 }
 
 double ModifiedMartellPerson::score() const

@@ -142,3 +142,13 @@ void ModifiedMartellPersonDotsGoverner::promotionAnimateDot(QQuickItem *dot, int
                               Q_ARG(QVariant, xPos),
                               Q_ARG(QVariant, yPos));
 }
+
+void ModifiedMartellPersonDotsGoverner::clearVisibleItems()
+{
+    QList<QObject*> toKill = m_dotsArea->children();
+
+    for(int i = 0; i < toKill.length(); i++)
+    {
+        toKill.at(i)->deleteLater();
+    }
+}

@@ -25,6 +25,8 @@ public:
     void negativeAttritionAnimation(QQuickItem* dot);
     void promotionAnimateDot(QQuickItem* dot, int level, int positionInLevel);
 
+    void clearVisibleItems();
+
 private:
     QQuickItem* m_dotsArea;
 

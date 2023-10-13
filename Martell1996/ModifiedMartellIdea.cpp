@@ -62,7 +62,7 @@ ModifiedMartellIdea::ModifiedMartellIdea() :
 
     //Setup Positions at level
     m_positionsAtLevel.reserve(30);
-    m_positionsAtLevel << 10 << 40 << 75 << 100 << 150 << 200 << 300 << 500;
+    m_positionsAtLevel << 10 << 40 << 75 << 100 << 150 << 200 << 350 << 500;
     for (int i = 0; i < 22; i++)
         m_positionsAtLevel.append(500 + 10*i);
 
@@ -597,6 +597,8 @@ void ModifiedMartellIdea::setup()
 void ModifiedMartellIdea::reset(bool animate, bool updateDisplay)
 {
     setPromotionCycles(0);
+    if(updateDisplay)
+        m_dotsGoverner.clearVisibleItems();
 
     for(int i = 0; i < m_numLevels; i++)
         m_levels[i]->reset(animate, updateDisplay);
@@ -683,7 +685,7 @@ void ModifiedMartellIdea::bulkRun()
         double oddsRatio = (pwt / (1.0 - pwt)) / (pwb / (1.0 - pwb));
 
         bool valid = true;
-        if(qFuzzyIsNull(pwb))
+        if(qFuzzyIsNull(pwb) || qFuzzyIsNull(1.0 - pwt) )
             valid = false;
 
         runData data = runData(percentWomen, meanScore, m_promotionCycles,

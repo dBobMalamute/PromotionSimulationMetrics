@@ -151,11 +151,13 @@ void ModifiedMartellDataDisplayIdea::prepareData()
     for(int i = 0; i < runsData.length(); i++)
     {
         if(runsData.at(i).validOddsRatio())
+        {
             averageOddsRatio += runsData.at(i).oddsRatio();
+        }
         else
             numInvalid++;
     }
-    averageOddsRatio /= (runsData.length() - numInvalid);
+    averageOddsRatio /= (1.0 * (runsData.length() - numInvalid));
 
     // double pwb = 0.01 * percentWomen.at(percentWomen.length() - 1).toDouble();
     // double pwt = 0.01 * percentWomen.at(0).toDouble();
