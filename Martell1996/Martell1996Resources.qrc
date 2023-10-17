@@ -21,8 +21,8 @@
         <file>Icons/ModifiedMartellSimulation.png</file>
         <file>Icons/ModifiedMartellGroup.png</file>
         <file>Icons/ModifiedMartellDataDisplay.png</file>
-        <file>ExampleMutts/ModifiedMartell.mutt</file>
         <file>QML/ModifiedMartellPersonDot.qml</file>
         <file>QML/Martell1996Controls3.qml</file>
+        <file>ExampleMutts/NewMutt.mutt</file>
     </qresource>
 </RCC>

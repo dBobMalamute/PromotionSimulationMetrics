@@ -146,27 +146,35 @@ void ModifiedMartellDataDisplayIdea::prepareData()
 
     emit displayAverageImpactFactor(averageImpactFactor);
 
+
     int numInvalid = 0;
-    double averageOddsRatio = 0.0;
+    double averagetbOddsRatio = 0.0;
     for(int i = 0; i < runsData.length(); i++)
     {
-        if(runsData.at(i).validOddsRatio())
+        if(runsData.at(i).validtbOddsRatio())
         {
-            averageOddsRatio += runsData.at(i).oddsRatio();
+            averagetbOddsRatio += runsData.at(i).tboddsRatio();
         }
         else
             numInvalid++;
     }
-    averageOddsRatio /= (1.0 * (runsData.length() - numInvalid));
+    averagetbOddsRatio /= (1.0 * (runsData.length() - numInvalid));
+    emit displayAveragetbOddsRatio(averagetbOddsRatio, numInvalid);
 
-    // double pwb = 0.01 * percentWomen.at(percentWomen.length() - 1).toDouble();
-    // double pwt = 0.01 * percentWomen.at(0).toDouble();
-    // double oddsRatio = (pwb / (1.0 - pwb)) / (pwt / (1.0 - pwt));
-
-    emit displayAverageOddsRatio(averageOddsRatio, numInvalid);
+    numInvalid = 0;
+    double averagewmOddsRatio = 0.0;
+    for(int i = 0; i < runsData.length(); i++)
+    {
+        if(runsData.at(i).validwmOddsRatio())
+        {
+            averagewmOddsRatio += runsData.at(i).wmoddsRatio();
+        }
+        else
+            numInvalid++;
+    }
+    averagewmOddsRatio /= (1.0 * (runsData.length() - numInvalid));
+    emit displayAveragewmOddsRatio(averagewmOddsRatio, numInvalid);
 
     //Number of runs used to calculate the data
     emit displayNumberRuns(runsData.length());
 }
-
-

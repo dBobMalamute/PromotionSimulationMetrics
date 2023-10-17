@@ -51,7 +51,7 @@ const IdeaAttributes ModifiedMartellIdea::attributes()
 
 ModifiedMartellIdea::ModifiedMartellIdea() :
     m_originals(0),
-    m_bulkRunNum(20),
+    m_bulkRunNum(2000),
     m_mode(SimulationMode::NORMAL),
     m_numLevels(8),
     m_stopAtNoOriginals(true),
@@ -682,14 +682,31 @@ void ModifiedMartellIdea::bulkRun()
 
         double pwb = 0.01 * m_percentWomen.at((m_percentWomen.length() - 1)).toDouble();
         double pwt = 0.01 * m_percentWomen.at(0).toDouble();
-        double oddsRatio = (pwt / (1.0 - pwt)) / (pwb / (1.0 - pwb));
+        double tboddsRatio = (pwt / (1.0 - pwt)) / (pwb / (1.0 - pwb));
 
-        bool valid = true;
-        if(qFuzzyIsNull(pwb) || qFuzzyIsNull(1.0 - pwt) )
-            valid = false;
+        bool valid = false;
+        if(qIsFinite(tboddsRatio))
+            valid = true;
+
+        double womenTop2Levels = 0.01 * m_levels.at(0)->positions() * m_levels.at(0)->percentWomen() +
+                                 0.01 * m_levels.at(1)->positions() * m_levels.at(1)->percentWomen();
+        double menTop2Levels = 0.01 * m_levels.at(0)->positions() * (100.0 - m_levels.at(0)->percentWomen()) +
+                               0.01 * m_levels.at(1)->positions() * (100.0 - m_levels.at(1)->percentWomen());
+
+        double menTotal = 0;
+        double womenTotal = 0;
+
+        for(int i = 0; i < m_numLevels; i++)
+        {
+            menTotal += 0.01 * m_levels.at(i)->positions() * (100.0 - m_levels.at(i)->percentWomen());
+            womenTotal += 0.01 * m_levels.at(i)->positions() * (m_levels.at(i)->percentWomen());
+        }
+
+        double wmoddsRatio = (womenTop2Levels / womenTotal) / (menTop2Levels / menTotal);
+        bool wmIsValid = qIsFinite(wmoddsRatio);
 
         runData data = runData(percentWomen, meanScore, m_promotionCycles,
-                               p1/p2, oddsRatio, valid);
+                               p1/p2, tboddsRatio, valid, wmoddsRatio, wmIsValid);
         m_bulkRunData.append(data);
     }
 
@@ -848,7 +865,7 @@ void ModifiedMartellIdea::updateStatistics()
     int womenPromoted = 0;
 
     //Check promotions entire company.
-    for(int i = 1; i < m_levels.size(); i++)
+    for(int i = 1; i < m_numLevels; i++)
     {
         menPotentiallyPromoted += m_levels.at(i)->menPotentiallyPromoted();
         womenPotentiallyPromoted += m_levels.at(i)->womenPotentiallyPromoted();
@@ -873,8 +890,25 @@ void ModifiedMartellIdea::updateStatistics()
 
     double pwb = 0.01 * percentWomen.at(percentWomen.length() - 1).toDouble();
     double pwt = 0.01 * percentWomen.at(0).toDouble();
-    double oddsRatio = (pwt / (1.0 - pwt)) / (pwb / (1.0 - pwb));
-    emit showOddsRatio(oddsRatio);
+    double tboddsRatio = (pwt / (1.0 - pwt)) / (pwb / (1.0 - pwb));
+    emit showTBOddsRatio(tboddsRatio);
+
+    double womenTop2Levels = 0.01 * m_levels.at(0)->positions() * m_levels.at(0)->percentWomen() +
+                             0.01 * m_levels.at(1)->positions() * m_levels.at(1)->percentWomen();
+    double menTop2Levels = 0.01 * m_levels.at(0)->positions() * (100.0 - m_levels.at(0)->percentWomen()) +
+                           0.01 * m_levels.at(1)->positions() * (100.0 - m_levels.at(1)->percentWomen());
+
+    double menTotal = 0;
+    double womenTotal = 0;
+
+    for(int i = 0; i < m_numLevels; i++)
+    {
+        menTotal += 0.01 * m_levels.at(i)->positions() * (100.0 - m_levels.at(i)->percentWomen());
+        womenTotal += 0.01 * m_levels.at(i)->positions() * (m_levels.at(i)->percentWomen());
+    }
+
+    double wmoddsRatio = (womenTop2Levels / womenTotal) / (menTop2Levels / menTotal);
+    emit showWMOddsRatio(wmoddsRatio);
 }
 
 void ModifiedMartellIdea::resetDisplay()

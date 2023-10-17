@@ -5,7 +5,7 @@ import QtQuick.Controls 2.12
 Rectangle
 {
     width: 370
-    height: 451
+    height: 480
     color: "#cccccc"
 
     Rectangle
@@ -197,16 +197,16 @@ Rectangle
         width: parent.width
         Text
         {
-            id: oddsRatioText
+            id: tboddsRatioText
             anchors.centerIn: parent;
             visible: idea.valid;
         }
         Connections
         {
             target: idea
-            function onDisplayAverageOddsRatio(avg, rejects)
+            function onDisplayAveragetbOddsRatio(avg, rejects)
             {
-                oddsRatioText.text = "Average Odds Ratio: " + avg.toFixed(2) + ", Rejects: " + rejects;
+                tboddsRatioText.text = "Average T/B Odds Ratio: " + avg.toFixed(2) + ", Rejects: " + rejects;
             }
         }
     }
@@ -214,6 +214,28 @@ Rectangle
     Rectangle
     {
         y: 421
+        height: 28
+        color: "#ececec"
+        width: parent.width
+        Text
+        {
+            id: wmoddsRatioText
+            anchors.centerIn: parent;
+            visible: idea.valid;
+        }
+        Connections
+        {
+            target: idea
+            function onDisplayAveragewmOddsRatio(avg, rejects)
+            {
+                wmoddsRatioText.text = "Average W/M Odds Ratio: " + avg.toFixed(2) + ", Rejects: " + rejects;
+            }
+        }
+    }
+
+    Rectangle
+    {
+        y: 453
         height: 28
         color: "#ececec"
         width: parent.width

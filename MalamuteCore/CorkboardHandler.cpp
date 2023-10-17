@@ -53,7 +53,7 @@ CorkboardHandler::CorkboardHandler(QObject *parent) :
 
 void CorkboardHandler::loadInitialFile()
 {
-    load(QUrl("qrc:/ExampleMutts/ModifiedMartell.mutt"));
+    load(QUrl("qrc:/ExampleMutts/NewMutt.mutt"));
 }
 
 CorkboardHandler::~CorkboardHandler()

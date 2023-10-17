@@ -1242,7 +1242,7 @@ qrc_Martell1996Resources.cpp: Martell1996/Martell1996Resources.qrc \
 		Martell1996/Icons/Martell1996DataDisplay.png \
 		Martell1996/Icons/Martell1996Simulation.png \
 		Martell1996/Icons/ModifiedMartellSimulation.png \
-		Martell1996/ExampleMutts/ModifiedMartell.mutt \
+		Martell1996/ExampleMutts/NewMutt.mutt \
 		Martell1996/Images/GreenerPastures.png \
 		Martell1996/Images/NewHires.png
 	/home/dbob/Qt/5.15.2/wasm_32/bin/rcc -name Martell1996Resources Martell1996/Martell1996Resources.qrc -o qrc_Martell1996Resources.cpp

@@ -7,13 +7,16 @@ struct runData
 {
 public:
     runData(QList<double> percentWomen, QList<double> averageScore, int promotionCycles,
-            double impactFactor, double oddsRatio, double validOddsRatio) :
+            double impactFactor, double tboddsRatio, double validtbOddsRatio,
+double wmoddsRatio, double validwmOddsRatio) :
         m_percentWomen(percentWomen),
         m_averageScore(averageScore),
         m_promotionCycles(promotionCycles),
         m_impactFactor(impactFactor),
-        m_oddsRatio(oddsRatio),
-        m_validOddsRatio(validOddsRatio)
+        m_tboddsRatio(tboddsRatio),
+        m_validtbOddsRatio(validtbOddsRatio),
+        m_wmoddsRatio(wmoddsRatio),
+        m_validwmOddsRatio(validwmOddsRatio)
     {
 
     }
@@ -23,8 +26,10 @@ public:
     int promotionCycles() const;
 
     double impactFactor() const;
-    double oddsRatio() const;
-    bool validOddsRatio() const;
+    double tboddsRatio() const;
+    bool validtbOddsRatio() const;
+    double wmoddsRatio() const;
+    bool validwmOddsRatio() const;
 
 private:
     QList<double> m_percentWomen;
@@ -32,8 +37,10 @@ private:
     int m_promotionCycles;
 
     double m_impactFactor;
-    double m_oddsRatio;
-    bool m_validOddsRatio;
+    double m_tboddsRatio;
+    bool m_validtbOddsRatio;
+    double m_wmoddsRatio;
+    bool m_validwmOddsRatio;
 };
 
 struct ModifiedMartellDataTypeAttributes : public DataTypeAttributes

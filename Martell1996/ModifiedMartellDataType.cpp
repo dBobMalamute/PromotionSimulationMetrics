@@ -20,14 +20,24 @@ double runData::impactFactor() const
     return m_impactFactor;
 }
 
-double runData::oddsRatio() const
+double runData::tboddsRatio() const
 {
-    return m_oddsRatio;
+    return m_tboddsRatio;
 }
 
-bool runData::validOddsRatio() const
+bool runData::validtbOddsRatio() const
 {
-    return m_validOddsRatio;
+    return m_validtbOddsRatio;
+}
+
+double runData::wmoddsRatio() const
+{
+    return m_wmoddsRatio;
+}
+
+bool runData::validwmOddsRatio() const
+{
+    return m_validwmOddsRatio;
 }
 
 

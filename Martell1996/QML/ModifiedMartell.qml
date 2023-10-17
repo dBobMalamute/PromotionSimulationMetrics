@@ -103,14 +103,25 @@ Rectangle
         {
             impactFactorRect.visible = false;
         }
-        function onShowOddsRatio(num)
+
+        function onShowTBOddsRatio(num)
         {
-            oddsRatioRect.visible = true;
-            oddsRatioText.text = num.toPrecision(4);
+            tboddsRatioRect.visible = true;
+            tboddsRatioText.text = num.toPrecision(4);
         }
-        function onHideOddsRatio()
+        function onHideTBOddsRatio()
         {
-            oddsRatioRect.visible = false;
+            tboddsRatioRect.visible = false;
+        }
+
+        function onShowWMOddsRatio(num)
+        {
+            wmoddsRatioRect.visible = true;
+            wmoddsRatioText.text = num.toPrecision(4);
+        }
+        function onHideWMOddsRatio()
+        {
+            wmoddsRatioRect.visible = false;
         }
 
     }
@@ -119,11 +130,11 @@ Rectangle
     {
         id: impactFactorRect;
         color: "darkGray"
-        width: 120
+        width: 130
         height: 44
         radius: 4
         y: 6
-        x: 430
+        x: 420
         visible: false;
 
         Text
@@ -151,20 +162,20 @@ Rectangle
 
     Rectangle
     {
-        id: oddsRatioRect
+        id: tboddsRatioRect
         color: "darkGray"
-        width: 120
+        width: 130
         height: 44
         radius: 4
         y: 54
-        x: 430
+        x: 420
         visible: true;
 
         Text
         {
             anchors.horizontalCenter: parent.horizontalCenter
             y: 3
-            text: "Odds Ratio"
+            text: "T/B Odds Ratio"
             horizontalAlignment: Text.AlignHCenter
             font.bold: true
             font.pointSize: 12
@@ -172,7 +183,41 @@ Rectangle
         }
         Text
         {
-            id: oddsRatioText
+            id: tboddsRatioText
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 3
+            text: "1.00"
+            font.bold: true
+            font.pointSize: 12
+            color: "black"
+        }
+    }
+
+    Rectangle
+    {
+        id: wmoddsRatioRect
+        color: "darkGray"
+        width: 130
+        height: 44
+        radius: 4
+        y: 102
+        x: 420
+        visible: true;
+
+        Text
+        {
+            anchors.horizontalCenter: parent.horizontalCenter
+            y: 3
+            text: "W/M Odds Ratio"
+            horizontalAlignment: Text.AlignHCenter
+            font.bold: true
+            font.pointSize: 12
+            color: "black"
+        }
+        Text
+        {
+            id: wmoddsRatioText
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 3
