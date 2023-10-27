@@ -94,15 +94,15 @@ Rectangle
             cohensDText.text = "";
         }
 
-        function onShowImpactFactor(num)
-        {
-            impactFactorRect.visible = true;
-            impactFactorText.text = num.toPrecision(4);
-        }
-        function onHideImpactFactor()
-        {
-            impactFactorRect.visible = false;
-        }
+//        function onShowImpactFactor(num)
+//        {
+//            impactFactorRect.visible = true;
+//            impactFactorText.text = num.toPrecision(4);
+//        }
+//        function onHideImpactFactor()
+//        {
+//            impactFactorRect.visible = false;
+//        }
 
         function onShowTBOddsRatio(num)
         {
@@ -126,39 +126,39 @@ Rectangle
 
     }
 
-    Rectangle
-    {
-        id: impactFactorRect;
-        color: "darkGray"
-        width: 130
-        height: 44
-        radius: 4
-        y: 6
-        x: 420
-        visible: false;
+//    Rectangle
+//    {
+//        id: impactFactorRect;
+//        color: "darkGray"
+//        width: 130
+//        height: 44
+//        radius: 4
+//        y: 6
+//        x: 420
+//        visible: false;
 
-        Text
-        {
-            anchors.horizontalCenter: parent.horizontalCenter
-            y: 3
-            text: "Impact Ratio"
-            horizontalAlignment: Text.AlignHCenter
-            font.bold: true
-            font.pointSize: 12
-            color: "black"
-        }
-        Text
-        {
-            id: impactFactorText;
-            anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom
-            anchors.bottomMargin: 3
-            text: "1.00"
-            font.bold: true
-            font.pointSize: 12
-            color: "black"
-        }
-    }
+//        Text
+//        {
+//            anchors.horizontalCenter: parent.horizontalCenter
+//            y: 3
+//            text: "Impact Ratio"
+//            horizontalAlignment: Text.AlignHCenter
+//            font.bold: true
+//            font.pointSize: 12
+//            color: "black"
+//        }
+//        Text
+//        {
+//            id: impactFactorText;
+//            anchors.horizontalCenter: parent.horizontalCenter
+//            anchors.bottom: parent.bottom
+//            anchors.bottomMargin: 3
+//            text: "1.00"
+//            font.bold: true
+//            font.pointSize: 12
+//            color: "black"
+//        }
+//    }
 
     Rectangle
     {
@@ -167,7 +167,7 @@ Rectangle
         width: 130
         height: 44
         radius: 4
-        y: 54
+        y: 6
         x: 420
         visible: true;
 
@@ -201,7 +201,7 @@ Rectangle
         width: 130
         height: 44
         radius: 4
-        y: 102
+        y: 56
         x: 420
         visible: true;
 

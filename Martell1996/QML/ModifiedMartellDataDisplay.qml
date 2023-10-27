@@ -5,7 +5,7 @@ import QtQuick.Controls 2.12
 Rectangle
 {
     width: 370
-    height: 480
+    height: 448
     color: "#cccccc"
 
     Rectangle
@@ -167,31 +167,31 @@ Rectangle
         }
     }
 
-    Rectangle
-    {
-        y: 357
-        height: 28
-        color: "#ececec"
-        width: parent.width
-        Text
-        {
-            id: impactFactorText
-            anchors.centerIn: parent;
-            visible: idea.valid;
-        }
-        Connections
-        {
-            target: idea
-            function onDisplayAverageImpactFactor(num)
-            {
-                impactFactorText.text = "Average Impact Ratio " + num.toFixed(3);
-            }
-        }
-    }
+//    Rectangle
+//    {
+//        y: 357
+//        height: 28
+//        color: "#ececec"
+//        width: parent.width
+//        Text
+//        {
+//            id: impactFactorText
+//            anchors.centerIn: parent;
+//            visible: idea.valid;
+//        }
+//        Connections
+//        {
+//            target: idea
+//            function onDisplayAverageImpactFactor(num)
+//            {
+//                impactFactorText.text = "Average Impact Ratio " + num.toFixed(3);
+//            }
+//        }
+//    }
 
     Rectangle
     {
-        y: 389
+        y: 357
         height: 28
         color: "#ececec"
         width: parent.width
@@ -213,7 +213,7 @@ Rectangle
 
     Rectangle
     {
-        y: 421
+        y: 389
         height: 28
         color: "#ececec"
         width: parent.width
@@ -235,7 +235,7 @@ Rectangle
 
     Rectangle
     {
-        y: 453
+        y: 421
         height: 28
         color: "#ececec"
         width: parent.width
