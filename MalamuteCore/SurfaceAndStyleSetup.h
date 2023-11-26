@@ -7,7 +7,7 @@
 void setupSurfaceAndStyle()
 {
     QSurfaceFormat format;
-    format.setSamples(20);
+    format.setSamples(16);
     QSurfaceFormat::setDefaultFormat(format);
     QQuickStyle::setStyle("Material");
 }
