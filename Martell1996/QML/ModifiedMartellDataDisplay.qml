@@ -124,6 +124,7 @@ Rectangle
                         anchors.verticalCenter: parent.verticalCenter
                         width: 100
                     }
+
                     Text
                     {
                         text: model.percentWomen.toFixed(1) + " &#177; " + model.percentWomenError.toFixed(1)
@@ -167,27 +168,27 @@ Rectangle
         }
     }
 
-//    Rectangle
-//    {
-//        y: 357
-//        height: 28
-//        color: "#ececec"
-//        width: parent.width
-//        Text
-//        {
-//            id: impactFactorText
-//            anchors.centerIn: parent;
-//            visible: idea.valid;
-//        }
-//        Connections
-//        {
-//            target: idea
-//            function onDisplayAverageImpactFactor(num)
-//            {
-//                impactFactorText.text = "Average Impact Ratio " + num.toFixed(3);
-//            }
-//        }
-//    }
+    //    Rectangle
+    //    {
+    //        y: 357
+    //        height: 28
+    //        color: "#ececec"
+    //        width: parent.width
+    //        Text
+    //        {
+    //            id: impactFactorText
+    //            anchors.centerIn: parent;
+    //            visible: idea.valid;
+    //        }
+    //        Connections
+    //        {
+    //            target: idea
+    //            function onDisplayAverageImpactFactor(num)
+    //            {
+    //                impactFactorText.text = "Average Impact Ratio " + num.toFixed(3);
+    //            }
+    //        }
+    //    }
 
     Rectangle
     {
@@ -200,13 +201,15 @@ Rectangle
             id: tboddsRatioText
             anchors.centerIn: parent;
             visible: idea.valid;
+            horizontalAlignment: Text.AlignHCenter
         }
         Connections
         {
             target: idea
-            function onDisplayAveragetbOddsRatio(avg, rejects)
+            function onDisplayAveragetbOddsRatio(avg, rejects, low, high)
             {
-                tboddsRatioText.text = "Average T/B Odds Ratio: " + avg.toFixed(2) + ", Rejects: " + rejects;
+                tboddsRatioText.text = "Average T/B Odds Ratio: " + avg.toFixed(3) + ", Rejects: " + rejects +
+                        "\n95% CI: " + low.toFixed(3) + "-" + high.toFixed(3);
             }
         }
     }
@@ -222,13 +225,15 @@ Rectangle
             id: wmoddsRatioText
             anchors.centerIn: parent;
             visible: idea.valid;
+            horizontalAlignment: Text.AlignHCenter
         }
         Connections
         {
             target: idea
-            function onDisplayAveragewmOddsRatio(avg, rejects)
+            function onDisplayAveragewmOddsRatio(avg, rejects, low, high)
             {
-                wmoddsRatioText.text = "Average W/M Odds Ratio: " + avg.toFixed(2) + ", Rejects: " + rejects;
+                wmoddsRatioText.text = "Average W/M Odds Ratio: " + avg.toFixed(3) + ", Rejects: " + rejects +
+                        "\n95% CI: " + low.toFixed(3) + "-" + high.toFixed(3);
             }
         }
     }

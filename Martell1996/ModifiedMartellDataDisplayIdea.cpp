@@ -1,4 +1,5 @@
 #include "ModifiedMartellDataDisplayIdea.h"
+#include <QRandomGenerator>
 
 ModifiedMartellDataDisplayAttributes::ModifiedMartellDataDisplayAttributes()
 {
@@ -146,22 +147,41 @@ void ModifiedMartellDataDisplayIdea::prepareData()
 
     emit displayAverageImpactFactor(averageImpactFactor);
 
-
+    //TB odds Ratio.
     int numInvalid = 0;
     double averagetbOddsRatio = 0.0;
     for(int i = 0; i < runsData.length(); i++)
     {
         if(runsData.at(i).validtbOddsRatio())
-        {
             averagetbOddsRatio += runsData.at(i).tboddsRatio();
-        }
         else
             numInvalid++;
     }
     averagetbOddsRatio /= (1.0 * (runsData.length() - numInvalid));
-    emit displayAveragetbOddsRatio(averagetbOddsRatio, numInvalid);
 
-    numInvalid = 0;
+    //Confidence interval TB odds ratio.
+    int bootstrapCount = 2000;
+    std::vector<double> tbBootstraps;
+    tbBootstraps.reserve(bootstrapCount);
+    for(int i = 0; i < bootstrapCount; i++)
+    {
+        double sum = 0.0;
+        for(int j = 0; j < runsData.length(); j++)
+        {
+            int select = QRandomGenerator::global()->bounded(runsData.length());
+            sum += runsData.at(select).tboddsRatio();
+        }
+        sum /= runsData.length();
+        tbBootstraps.push_back(sum);
+    }
+    std::sort(tbBootstraps.begin(), tbBootstraps.end());
+    int lowCI = std::floor(0.025*bootstrapCount);
+    int highCI = std::ceil(0.975*bootstrapCount);
+    emit displayAveragetbOddsRatio(averagetbOddsRatio, numInvalid,
+                                   tbBootstraps[lowCI], tbBootstraps[highCI]);
+    \
+        //WM odds ratio.
+        numInvalid = 0;
     double averagewmOddsRatio = 0.0;
     for(int i = 0; i < runsData.length(); i++)
     {
@@ -173,7 +193,24 @@ void ModifiedMartellDataDisplayIdea::prepareData()
             numInvalid++;
     }
     averagewmOddsRatio /= (1.0 * (runsData.length() - numInvalid));
-    emit displayAveragewmOddsRatio(averagewmOddsRatio, numInvalid);
+
+    //Confidence interval WM odds ratio.
+    std::vector<double> wmBootstraps;
+    wmBootstraps.reserve(bootstrapCount);
+    for(int i = 0; i < bootstrapCount; i++)
+    {
+        double sum = 0.0;
+        for(int j = 0; j < runsData.length(); j++)
+        {
+            int select = QRandomGenerator::global()->bounded(runsData.length());
+            sum += runsData.at(select).wmoddsRatio();
+        }
+        sum /= runsData.length();
+        wmBootstraps.push_back(sum);
+    }
+    std::sort(wmBootstraps.begin(), wmBootstraps.end());
+    emit displayAveragewmOddsRatio(averagewmOddsRatio, numInvalid,
+                                   wmBootstraps[lowCI], wmBootstraps[highCI]);
 
     //Number of runs used to calculate the data
     emit displayNumberRuns(runsData.length());
