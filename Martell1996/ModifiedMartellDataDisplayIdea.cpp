@@ -150,10 +150,14 @@ void ModifiedMartellDataDisplayIdea::prepareData()
     //TB odds Ratio.
     int numInvalid = 0;
     double averagetbOddsRatio = 0.0;
+    std::vector<double> validTBOddsRatios;
     for(int i = 0; i < runsData.length(); i++)
     {
         if(runsData.at(i).validtbOddsRatio())
+        {
             averagetbOddsRatio += runsData.at(i).tboddsRatio();
+            validTBOddsRatios.push_back(runsData.at(i).tboddsRatio());
+        }
         else
             numInvalid++;
     }
@@ -161,17 +165,18 @@ void ModifiedMartellDataDisplayIdea::prepareData()
 
     //Confidence interval TB odds ratio.
     int bootstrapCount = 2000;
+    int validTBCount = validTBOddsRatios.size();
     std::vector<double> tbBootstraps;
     tbBootstraps.reserve(bootstrapCount);
     for(int i = 0; i < bootstrapCount; i++)
     {
         double sum = 0.0;
-        for(int j = 0; j < runsData.length(); j++)
+        for(int j = 0; j < validTBCount; j++)
         {
-            int select = QRandomGenerator::global()->bounded(runsData.length());
-            sum += runsData.at(select).tboddsRatio();
+            int select = QRandomGenerator::global()->bounded(validTBCount);
+            sum += validTBOddsRatios.at(select);
         }
-        sum /= runsData.length();
+        sum /= validTBCount;
         tbBootstraps.push_back(sum);
     }
     std::sort(tbBootstraps.begin(), tbBootstraps.end());
@@ -180,19 +185,22 @@ void ModifiedMartellDataDisplayIdea::prepareData()
     emit displayAveragetbOddsRatio(averagetbOddsRatio, numInvalid,
                                    tbBootstraps[lowCI], tbBootstraps[highCI]);
     \
-        //WM odds ratio.
-        numInvalid = 0;
+    //WM odds ratio.
+    numInvalid = 0;
     double averagewmOddsRatio = 0.0;
+    std::vector<double> validWMOddsRatios;
     for(int i = 0; i < runsData.length(); i++)
     {
         if(runsData.at(i).validwmOddsRatio())
         {
             averagewmOddsRatio += runsData.at(i).wmoddsRatio();
+            validWMOddsRatios.push_back(runsData.at(i).wmoddsRatio());
         }
         else
             numInvalid++;
     }
     averagewmOddsRatio /= (1.0 * (runsData.length() - numInvalid));
+    int validWMOddsRatioCount = validWMOddsRatios.size();
 
     //Confidence interval WM odds ratio.
     std::vector<double> wmBootstraps;
@@ -200,12 +208,12 @@ void ModifiedMartellDataDisplayIdea::prepareData()
     for(int i = 0; i < bootstrapCount; i++)
     {
         double sum = 0.0;
-        for(int j = 0; j < runsData.length(); j++)
+        for(int j = 0; j < validWMOddsRatioCount; j++)
         {
-            int select = QRandomGenerator::global()->bounded(runsData.length());
-            sum += runsData.at(select).wmoddsRatio();
+            int select = QRandomGenerator::global()->bounded(validWMOddsRatioCount);
+            sum += validWMOddsRatios.at(select);
         }
-        sum /= runsData.length();
+        sum /= validWMOddsRatioCount;
         wmBootstraps.push_back(sum);
     }
     std::sort(wmBootstraps.begin(), wmBootstraps.end());
