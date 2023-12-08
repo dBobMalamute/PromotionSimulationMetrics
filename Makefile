@@ -1213,8 +1213,6 @@ qrc_MalamuteCoreResources.cpp: MalamuteCore/MalamuteCoreResources.qrc \
 
 qrc_Martell1996Resources.cpp: Martell1996/Martell1996Resources.qrc \
 		../../../Qt/5.15.2/wasm_32/bin/rcc \
-		Martell1996/QML/Martell1996Controls.qml \
-		Martell1996/QML/Martell1996Controls2.qml \
 		Martell1996/QML/ModifiedMartellGroupMinimized.qml \
 		Martell1996/QML/ModifiedMartell.qml \
 		Martell1996/QML/ModifiedMartellDataDisplay.qml \
