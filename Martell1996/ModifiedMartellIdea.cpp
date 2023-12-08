@@ -26,11 +26,7 @@ ModifiedMartellAttributes::ModifiedMartellAttributes()
 
     m_externalQMLPaths << ":/QML/ModifiedMartellPyramidSetup.qml";
     m_externalQMLLocations.append({false, false, 10,-420});
-    m_externalQMLPaths << ":/QML/Martell1996Controls.qml";
-    m_externalQMLLocations.append({false, true, 10,10});
 
-    m_externalQMLPaths << ":/QML/Martell1996Controls2.qml";
-    m_externalQMLLocations.append({false, true, 300,10});
     m_externalQMLPaths << ":/QML/Martell1996Controls3.qml";
     m_externalQMLLocations.append({false, true, 500,10});
 

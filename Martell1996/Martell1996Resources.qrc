@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>QML/Martell1996Controls.qml</file>
         <file>QML/RemovePersonAnimationSquare.qml</file>
         <file>QML/PromotePersonAnimationSquare.qml</file>
         <file>QML/NewHireAnimationSquare.qml</file>
@@ -8,7 +7,6 @@
         <file>Images/GreenerPastures.png</file>
         <file>Icons/Martell1996Simulation.png</file>
         <file>Icons/Martell1996DataDisplay.png</file>
-        <file>QML/Martell1996Controls2.qml</file>
         <file>QML/ModifiedMartellGroup.qml</file>
         <file>QML/ModifiedMartellGroupMinimized.qml</file>
         <file>QML/ModifiedMartell.qml</file>

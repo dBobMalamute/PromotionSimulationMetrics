@@ -94,16 +94,6 @@ Rectangle
             cohensDText.text = "";
         }
 
-//        function onShowImpactFactor(num)
-//        {
-//            impactFactorRect.visible = true;
-//            impactFactorText.text = num.toPrecision(4);
-//        }
-//        function onHideImpactFactor()
-//        {
-//            impactFactorRect.visible = false;
-//        }
-
         function onShowTBOddsRatio(num)
         {
             tboddsRatioRect.visible = true;
@@ -125,40 +115,6 @@ Rectangle
         }
 
     }
-
-//    Rectangle
-//    {
-//        id: impactFactorRect;
-//        color: "darkGray"
-//        width: 130
-//        height: 44
-//        radius: 4
-//        y: 6
-//        x: 420
-//        visible: false;
-
-//        Text
-//        {
-//            anchors.horizontalCenter: parent.horizontalCenter
-//            y: 3
-//            text: "Impact Ratio"
-//            horizontalAlignment: Text.AlignHCenter
-//            font.bold: true
-//            font.pointSize: 12
-//            color: "black"
-//        }
-//        Text
-//        {
-//            id: impactFactorText;
-//            anchors.horizontalCenter: parent.horizontalCenter
-//            anchors.bottom: parent.bottom
-//            anchors.bottomMargin: 3
-//            text: "1.00"
-//            font.bold: true
-//            font.pointSize: 12
-//            color: "black"
-//        }
-//    }
 
     Rectangle
     {
@@ -222,6 +178,72 @@ Rectangle
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 3
             text: "1.00"
+            font.bold: true
+            font.pointSize: 12
+            color: "black"
+        }
+    }
+    Rectangle
+    {
+        id: originalsRect
+        color: "darkGray"
+        width: 100
+        height: 44
+        radius: 4
+        y: 106
+        x: 450
+        visible: true;
+
+        Text
+        {
+            anchors.horizontalCenter: parent.horizontalCenter
+            y: 3
+            text: "Originals"
+            horizontalAlignment: Text.AlignHCenter
+            font.bold: true
+            font.pointSize: 12
+            color: "black"
+        }
+        Text
+        {
+            id: originalsText
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 3
+            text: idea.originals
+            font.bold: true
+            font.pointSize: 12
+            color: "black"
+        }
+    }
+    Rectangle
+    {
+        id: cyclesRect
+        color: "darkGray"
+        width: 70
+        height: 44
+        radius: 4
+        y: 156
+        x: 480
+        visible: true;
+
+        Text
+        {
+            anchors.horizontalCenter: parent.horizontalCenter
+            y: 3
+            text: "Cycles"
+            horizontalAlignment: Text.AlignHCenter
+            font.bold: true
+            font.pointSize: 12
+            color: "black"
+        }
+        Text
+        {
+            id: cyclesText
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 3
+            text: idea.promotionCycles
             font.bold: true
             font.pointSize: 12
             color: "black"
@@ -333,7 +355,7 @@ Rectangle
         color: "darkGray"
         y: 6
         width: 80
-        height: 30
+        height: 38
         x: 560
         Text
         {
@@ -350,7 +372,7 @@ Rectangle
         width: 80
         height: 360
         x: 560
-        y: 40
+        y: 50
         spacing: 2
         Repeater
         {
@@ -387,7 +409,7 @@ Rectangle
         color: "darkGray"
         y: 6
         width: 80
-        height: 30
+        height: 38
         x: 650
         Text
         {
@@ -404,7 +426,7 @@ Rectangle
         width: 80
         height: 360
         x: 650
-        y: 40
+        y: 50
         spacing: 2
         Repeater
         {
@@ -456,6 +478,17 @@ Rectangle
                 text: "Step";
                 onClicked:
                 {
+                    idea.animationStepButtonClicked();
+                }
+            }
+
+            Button
+            {
+                enabled: idea.valid
+                anchors.verticalCenter: parent.verticalCenter
+                text: "Cycle";
+                onClicked:
+                {
                     idea.normalStepButtonClicked();
                 }
             }
@@ -464,7 +497,7 @@ Rectangle
             {
                 enabled: idea.valid
                 anchors.verticalCenter: parent.verticalCenter
-                text: "Full Replacement";
+                text: "Complete";
                 onClicked:
                 {
                     idea.normalFinishButtonClicked();
@@ -475,37 +508,95 @@ Rectangle
             {
                 enabled: idea.valid
                 anchors.verticalCenter: parent.verticalCenter
-                text: "reset";
+                text: "Reset";
                 onClicked:
                 {
                     idea.normalResetButtonClicked();
                 }
             }
+
             Rectangle
             {
-                anchors.verticalCenter: parent.verticalCenter;
-                height: 35
-                width: 160
-                color: "lightgray"
+                color: "black"
+                width: 4
+                height: parent.height;
+            }
+            Item
+            {
+                width: runsText.width + 50
+                height: parent.height;
                 Text
                 {
-                    visible: idea.valid;
-                    anchors.centerIn: parent
-                    text: "Originals: " + idea.originals;
+                    id: runsText;
+                    anchors.left: parent.left
+                    anchors.verticalCenter: parent.verticalCenter
+                    font.pointSize: 16
+                    text: "Runs: ";
+                }
+                TextInput
+                {
+                    id: runsTextInput;
+                    anchors.right: parent.right
+                    anchors.verticalCenter: parent.verticalCenter
+                    font.pointSize: 16
+                    font.underline: true;
+                    validator: IntValidator{bottom: 1; top: 9999}
+                    selectByMouse: true;
+                    onEditingFinished:
+                    {
+                        idea.setBulkRunNum(text)
+                    }
+                    Component.onCompleted:
+                    {
+                        text = idea.bulkRunNum
+                    }
                 }
             }
+
+            Button
+            {
+                enabled: idea.valid
+                anchors.verticalCenter: parent.verticalCenter
+                text: "Bulk Run";
+                hoverEnabled: true
+                onClicked:
+                {
+                    idea.bulkRun();
+                }
+                onHoveredChanged:
+                {
+                    mayBeSlowRect.visible = hovered;
+                }
+
+                Rectangle
+                {
+                    id: mayBeSlowRect
+                    color: "black"
+                    border.width: 2
+                    border.color: "grey"
+                    visible: false;
+                    radius: 5
+                    anchors.centerIn: parent
+                    anchors.verticalCenterOffset: 40
+                    width: mayBeSlowText.width + 10
+                    height: mayBeSlowText.height + 10
+                    Text
+                    {
+                        id: mayBeSlowText;
+                        text: "May take several minutes\non some machines."
+                        horizontalAlignment: Text.AlignHCenter
+                        color: "darkred"
+                        font.pointSize: 14
+                        anchors.centerIn: parent
+                    }
+                }
+            }
+
             Rectangle
             {
-                anchors.verticalCenter: parent.verticalCenter;
-                height: 35
-                width: 200;
-                color: "lightgray"
-                Text
-                {
-                    visible: idea.valid;
-                    anchors.centerIn: parent
-                    text: "Promotion Cycles: " + idea.promotionCycles;
-                }
+                color: "black"
+                width: 4
+                height: parent.height;
             }
         }
     }
