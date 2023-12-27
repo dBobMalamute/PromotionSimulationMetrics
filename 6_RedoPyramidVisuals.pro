@@ -158,20 +158,3 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 QMAKE_LFLAGS_RELEASE += -s TOTAL_MEMORY=33554432
 
-DISTFILES += \
-    Martell1996/QML/Martell1996Controls3.qml \
-    Martell1996/QML/ModifiedMartell.qml \
-    Martell1996/QML/ModifiedMartellDataDisplay.qml \
-    Martell1996/QML/ModifiedMartellGroup.qml \
-    Martell1996/QML/ModifiedMartellGroupMinimized.qml \
-    Martell1996/QML/ModifiedMartellPersonDot.qml \
-    Martell1996/QML/ModifiedMartellPieChartKey.qml \
-    Martell1996/QML/ModifiedMartellPieChartPath.qml \
-    Martell1996/QML/ModifiedMartellPyramidSetup.qml \
-    Martell1996/QML/NewHireAnimationCircle.qml \
-    Martell1996/QML/NewHireAnimationSquare.qml \
-    Martell1996/QML/NumberInputIdea.qml \
-    Martell1996/QML/PromotePersonAnimationSquare.qml \
-    Martell1996/QML/RemovePersonAnimationCircle.qml \
-    Martell1996/QML/RemovePersonAnimationSquare.qml \
-    math/special_functions/detail/lambert_w_lookup_table.ipp

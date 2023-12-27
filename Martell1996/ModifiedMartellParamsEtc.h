@@ -6,7 +6,7 @@
 #include <QColor>
 #include "ModifiedMartellGroupDataType.h"
 #include "ModifiedMartellPerson.h"
-#include "../Distributions/Common/DistributionCommonFunctions.h"
+#include "DistributionCommonFunctions.h"
 #include "ModifiedMartellPersonDotsGoverner.h"
 
 #include <memory>

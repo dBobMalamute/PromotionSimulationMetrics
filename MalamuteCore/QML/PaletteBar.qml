@@ -61,4 +61,43 @@ ToolBar
             id: palleteScrollBar
         }
     }
+    Text
+    {
+        id: videoL
+        anchors.right: gregEmail.left
+        anchors.rightMargin: 10
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenterOffset: -10
+        text: "Simulation Explanation Video"
+        font.pointSize: 12
+    }
+    Text
+    {
+        anchors.horizontalCenter: videoL.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenterOffset: 10
+        text: "TODO ADD"
+        font.pointSize: 12
+    }
+
+    Text
+    {
+        anchors.horizontalCenter: gregEmail.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenterOffset: -10
+        text: "??? ??? ???: Greg Mitchell"
+        font.pointSize: 12
+    }
+    TextInput
+    {
+        id: gregEmail
+        anchors.right: parent.right
+        anchors.rightMargin: 10
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenterOffset: 10
+        text: "greg.mitchell@law.virginia.edu"
+        font.pointSize: 12
+        selectByMouse: true
+        readOnly: true;
+    }
 }

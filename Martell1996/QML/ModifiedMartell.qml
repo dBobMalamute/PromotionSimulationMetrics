@@ -506,10 +506,15 @@ Rectangle
                 enabled: idea.valid
                 anchors.verticalCenter: parent.verticalCenter
                 text: "Step";
+                ToolTip.text: "Next simulation Step. Either Attrition, Promotion, or New Hires."
+                ToolTip.delay: 1000
+                ToolTip.timeout: 3000
+                ToolTip.visible: hovered
                 onClicked:
                 {
                     idea.animationStepButtonClicked();
                 }
+
             }
 
             Button
@@ -521,6 +526,11 @@ Rectangle
                 {
                     idea.normalStepButtonClicked();
                 }
+                ToolTip.text: "Run a full Attrition Promotion New Hiring Cycle."
+                ToolTip.delay: 1000
+                ToolTip.timeout: 3000
+                ToolTip.visible: hovered
+                hoverEnabled: true;
             }
 
             Button
@@ -532,6 +542,11 @@ Rectangle
                 {
                     idea.normalFinishButtonClicked();
                 }
+                ToolTip.text: "Run to finish. For Martell this is when there are no more original employees."
+                ToolTip.delay: 1000
+                ToolTip.timeout: 3000
+                ToolTip.visible: hovered
+                hoverEnabled: true;
             }
 
             Button

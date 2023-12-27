@@ -47,7 +47,7 @@ Rectangle
                 target: dot
                 property: "y"
                 to: yGoal + 20
-                duration: 2000
+                duration: 1000
                 easing.type: Easing.OutQuad
             }
             NumberAnimation
@@ -55,7 +55,7 @@ Rectangle
                 target: dot
                 property: "x"
                 to: 0.1*xGoal;
-                duration: 2000
+                duration: 1000
             }
         }
         ParallelAnimation
@@ -65,7 +65,7 @@ Rectangle
                 target: dot
                 property: "y"
                 to: yGoal
-                duration: 2000
+                duration: 1000
                 easing.type: Easing.OutQuad
             }
             NumberAnimation
@@ -73,7 +73,7 @@ Rectangle
                 target: dot
                 property: "x"
                 to: xGoal
-                duration: 2000
+                duration: 1000
             }
         }
     }
@@ -85,7 +85,7 @@ Rectangle
         target: dot
         property: "opacity"
         to: 0.0;
-        duration: 2000
+        duration: 500
     }
 
     NumberAnimation
@@ -95,7 +95,7 @@ Rectangle
         target: dot
         property: "opacity"
         to: 0.0;
-        duration: 2000
+        duration: 500
     }
 
     NumberAnimation
@@ -105,7 +105,7 @@ Rectangle
         target: dot
         property: "opacity"
         to: 0.0;
-        duration: 2000
+        duration: 500
     }
 
     SequentialAnimation
