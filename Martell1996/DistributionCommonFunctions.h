@@ -1,7 +1,7 @@
 #ifndef DISTRIBUTIONCOMMONFUNCTIONS_H
 #define DISTRIBUTIONCOMMONFUNCTIONS_H
 
-#include "../../DataTypes/DistributionDataType.h"
+#include "../DataTypes/DistributionDataType.h"
 #include <QtMath>
 
 struct ConnectedPlot

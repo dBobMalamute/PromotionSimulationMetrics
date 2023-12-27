@@ -16,9 +16,6 @@ ModifiedMartellGroupAttributes::ModifiedMartellGroupAttributes()
     m_customLabels = true;
 
     m_embeddedQMLPath = ":/QML/ModifiedMartellGroup.qml";
-    m_minimizedQMLPath = ":/QML/ModifiedMartellGroupMinimized.qml";
-    m_minimizable = true;
-    m_startMinimized = false;
 }
 
 ModifiedMartellGroupIdea::ModifiedMartellGroupIdea() :

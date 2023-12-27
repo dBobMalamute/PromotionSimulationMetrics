@@ -16,14 +16,11 @@ ToolBar
     {
         id: ideaCollectionComboBox
         editable: false
-        width: 250
+        width: 1
         height: 60
 
         model: malamuteHandler.collectionList
-        onActivated:
-        {
-            malamuteHandler.setPalleteList(currentValue)
-        }
+
         font.bold: true
         font.pixelSize: 16
         background: Rectangle
@@ -39,7 +36,6 @@ ToolBar
         ToolTip.text: "Choose a new Idea Collection"
         Component.onCompleted:
         {
-            ideaCollectionComboBox.currentIndex = 0;
             malamuteHandler.setPalleteList(currentValue);
         }
     }

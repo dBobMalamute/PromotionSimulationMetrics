@@ -1,7 +1,7 @@
 ﻿#ifndef GAUSSIANDISTRIBUTIONIDEA_H
 #define GAUSSIANDISTRIBUTIONIDEA_H
 
-#include "IdeaTemplates/DistributionTemplate.h"
+#include "DistributionTemplate.h"
 
 struct GaussianDistributionAttributes : public IdeaAttributes
 {

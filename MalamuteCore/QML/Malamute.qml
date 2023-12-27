@@ -15,7 +15,7 @@ ApplicationWindow
     id: applicationWindow
     visible: true
     width: 1000
-    height: 700 + palleteBar.height + singleMalamuteMenus.height
+    height: 700 + palleteBar.height
     title: qsTr("Malamute")
     color: "black"
 
@@ -436,11 +436,6 @@ ApplicationWindow
         {
             corkboard.setColorFromCasingMenu(8);
         }
-    }
-
-    menuBar: SingleMalamuteMenus
-    {
-        id: singleMalamuteMenus
     }
 
     FileDialog

@@ -5,7 +5,7 @@ import QtQuick.Controls 2.12
 Rectangle
 {
     width: 370
-    height: 448
+    height: 476
     color: "#cccccc"
 
     Rectangle
@@ -29,11 +29,11 @@ Rectangle
         }
         Label
         {
-            text: "Incumbent's\nMean Score"
+            text: "Incumbent's\nScore"
             horizontalAlignment: Text.AlignHCenter
             anchors.verticalCenter: parent.verticalCenter
             width: 100
-            ToolTip.text: "Average plus or minus standard deviation"
+            ToolTip.text: "Average(Standard Deviation)"
             ToolTip.visible: meanScoreMouseArea.containsMouse;
             MouseArea
             {
@@ -55,7 +55,7 @@ Rectangle
             horizontalAlignment: Text.AlignHCenter
             anchors.verticalCenter: parent.verticalCenter
             width: 100
-            ToolTip.text: "Average plus or minus standard deviation"
+            ToolTip.text: "Average(Standard Deviation)"
             ToolTip.visible: percentageWomenMouseArea.containsMouse;
             MouseArea
             {
@@ -111,7 +111,7 @@ Rectangle
                     }
                     Text
                     {
-                        text: model.meanScore.toFixed(2) + " &#177; " + model.meanScoreError.toFixed(2)
+                        text: model.meanScore.toFixed(2) + "(" + model.meanScoreError.toFixed(2) + ")"
                         horizontalAlignment: Text.AlignHCenter
                         anchors.verticalCenter: parent.verticalCenter
                         width: 100
@@ -127,7 +127,7 @@ Rectangle
 
                     Text
                     {
-                        text: model.percentWomen.toFixed(1) + " &#177; " + model.percentWomenError.toFixed(1)
+                        text: model.percentWomen.toFixed(1) + "(" + model.percentWomenError.toFixed(1) + ")"
                         horizontalAlignment: Text.AlignHCenter
                         anchors.verticalCenter: parent.verticalCenter
                         width: 100
@@ -168,32 +168,10 @@ Rectangle
         }
     }
 
-    //    Rectangle
-    //    {
-    //        y: 357
-    //        height: 28
-    //        color: "#ececec"
-    //        width: parent.width
-    //        Text
-    //        {
-    //            id: impactFactorText
-    //            anchors.centerIn: parent;
-    //            visible: idea.valid;
-    //        }
-    //        Connections
-    //        {
-    //            target: idea
-    //            function onDisplayAverageImpactFactor(num)
-    //            {
-    //                impactFactorText.text = "Average Impact Ratio " + num.toFixed(3);
-    //            }
-    //        }
-    //    }
-
     Rectangle
     {
         y: 357
-        height: 28
+        height: 42
         color: "#ececec"
         width: parent.width
         Text
@@ -202,6 +180,14 @@ Rectangle
             anchors.centerIn: parent;
             visible: idea.valid;
             horizontalAlignment: Text.AlignHCenter
+            ToolTip.text: "Rejects excluded because division by 0 would result in infinity."
+            ToolTip.visible: tboddsRatioMouseArea.containsMouse;
+            MouseArea
+            {
+                id: tboddsRatioMouseArea
+                anchors.fill: parent
+                hoverEnabled: true;
+            }
         }
         Connections
         {
@@ -216,8 +202,8 @@ Rectangle
 
     Rectangle
     {
-        y: 389
-        height: 28
+        y: 403
+        height: 42
         color: "#ececec"
         width: parent.width
         Text
@@ -226,6 +212,14 @@ Rectangle
             anchors.centerIn: parent;
             visible: idea.valid;
             horizontalAlignment: Text.AlignHCenter
+            ToolTip.text: "Rejects excluded because division by 0 would result in infinity."
+            ToolTip.visible: wmoddsRatioMouseArea.containsMouse;
+            MouseArea
+            {
+                id: wmoddsRatioMouseArea
+                anchors.fill: parent
+                hoverEnabled: true;
+            }
         }
         Connections
         {
@@ -240,7 +234,7 @@ Rectangle
 
     Rectangle
     {
-        y: 421
+        y: 449
         height: 28
         color: "#ececec"
         width: parent.width

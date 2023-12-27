@@ -7,25 +7,8 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 HEADERS += \
-    Calculator/AdditionIdea.h \
-    Calculator/CalculatorPlugin.h \
-    Calculator/DivisionIdea.h \
-    Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-    Calculator/LabeledNumberDisplayIdea.h \
-    Calculator/LabeledNumberInputIdea.h \
-    Calculator/MultiplicationIdea.h \
-    Calculator/NumberDisplayIdea.h \
-    Calculator/NumberInputIdea.h \
-    Calculator/SubtractionIdea.h \
     DataTypes/DistributionDataType.h \
     DataTypes/NumberDataType.h \
-    Distributions/Common/BoostIncludes.h \
-    Distributions/Common/DistributionCommonFunctions.h \
-    Distributions/DistributionDisplayIdea.h \
-    Distributions/DistributionMakers/GaussianDistributionBuilder.h \
-    Distributions/DistributionsPlugin.h \
-    Distributions/GaussianDistributionIdea.h \
-    Distributions/IdeaTemplates/DistributionTemplate.h \
     MalamuteCore/Casing.h \
     MalamuteCore/CasingBackend.h \
     MalamuteCore/CasingState.h \
@@ -71,6 +54,11 @@ HEADERS += \
     MalamuteCore/WireBackend.h \
     MalamuteCore/WireCasingInteraction.h \
     MalamuteCore/WireState.h \
+    Martell1996/BoostIncludes.h \
+    Martell1996/DistributionCommonFunctions.h \
+    Martell1996/DistributionTemplate.h \
+    Martell1996/GaussianDistributionBuilder.h \
+    Martell1996/GaussianDistributionIdea.h \
     Martell1996/Martell1996Plugin.h \
     Martell1996/ModifiedMartellDataDisplayIdea.h \
     Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.h \
@@ -83,32 +71,13 @@ HEADERS += \
     Martell1996/ModifiedMartellParamsEtc.h \
     Martell1996/ModifiedMartellPerson.h \
     Martell1996/ModifiedMartellPersonDotsGoverner.h \
+    Martell1996/NumberInputIdea.h \
     Martell1996/SimulationGender.h \
     Martell1996/SimulationMode.h \
-    Utilities/TextAreaIdea.h \
-    Utilities/TextLineIdea.h \
-    Utilities/UtilitiesPlugin.h \
 
 SOURCES += \
-    Calculator/AdditionIdea.cpp \
-    Calculator/CalculatorPlugin.cpp \
-    Calculator/DivisionIdea.cpp \
-    Calculator/IdeaTemplates/TwoToOneIdeaTemplate.cpp \
-    Calculator/LabeledNumberDisplayIdea.cpp \
-    Calculator/LabeledNumberInputIdea.cpp \
-    Calculator/MultiplicationIdea.cpp \
-    Calculator/NumberDisplayIdea.cpp \
-    Calculator/NumberInputIdea.cpp \
-    Calculator/SubtractionIdea.cpp \
     DataTypes/DistributionDataType.cpp \
     DataTypes/NumberDataType.cpp \
-    Distributions/Common/BoostIncludes.cpp \
-    Distributions/Common/DistributionCommonFunctions.cpp \
-    Distributions/DistributionDisplayIdea.cpp \
-    Distributions/DistributionMakers/GaussianDistributionBuilder.cpp \
-    Distributions/DistributionsPlugin.cpp \
-    Distributions/GaussianDistributionIdea.cpp \
-    Distributions/IdeaTemplates/DistributionTemplate.cpp \
     MalamuteCore/Casing.cpp \
     MalamuteCore/CasingBackend.cpp \
     MalamuteCore/CasingState.cpp \
@@ -151,6 +120,11 @@ SOURCES += \
     MalamuteCore/WireCasingInteraction.cpp \
     MalamuteCore/WireState.cpp \
     MalamuteCore/main.cpp \
+    Martell1996/BoostIncludes.cpp \
+    Martell1996/DistributionCommonFunctions.cpp \
+    Martell1996/DistributionTemplate.cpp \
+    Martell1996/GaussianDistributionBuilder.cpp \
+    Martell1996/GaussianDistributionIdea.cpp \
     Martell1996/Martell1996Plugin.cpp \
     Martell1996/ModifiedMartellDataDisplayIdea.cpp \
     Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.cpp \
@@ -163,18 +137,13 @@ SOURCES += \
     Martell1996/ModifiedMartellParamsEtc.cpp \
     Martell1996/ModifiedMartellPerson.cpp \
     Martell1996/ModifiedMartellPersonDotsGoverner.cpp \
+    Martell1996/NumberInputIdea.cpp \
     Martell1996/SimulationGender.cpp \
     Martell1996/SimulationMode.cpp \
-    Utilities/TextAreaIdea.cpp \
-    Utilities/TextLineIdea.cpp \
-    Utilities/UtilitiesPlugin.cpp
 
 RESOURCES += \
-    Calculator/CalculatorResources.qrc \
-    Distributions/DistributionResources.qrc \
     MalamuteCore/MalamuteCoreResources.qrc \
     Martell1996/Martell1996Resources.qrc \
-    Utilities/UtilitiesResources.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -190,4 +159,19 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 QMAKE_LFLAGS_RELEASE += -s TOTAL_MEMORY=33554432
 
 DISTFILES += \
+    Martell1996/QML/Martell1996Controls3.qml \
+    Martell1996/QML/ModifiedMartell.qml \
+    Martell1996/QML/ModifiedMartellDataDisplay.qml \
+    Martell1996/QML/ModifiedMartellGroup.qml \
+    Martell1996/QML/ModifiedMartellGroupMinimized.qml \
+    Martell1996/QML/ModifiedMartellPersonDot.qml \
+    Martell1996/QML/ModifiedMartellPieChartKey.qml \
+    Martell1996/QML/ModifiedMartellPieChartPath.qml \
+    Martell1996/QML/ModifiedMartellPyramidSetup.qml \
+    Martell1996/QML/NewHireAnimationCircle.qml \
+    Martell1996/QML/NewHireAnimationSquare.qml \
+    Martell1996/QML/NumberInputIdea.qml \
+    Martell1996/QML/PromotePersonAnimationSquare.qml \
+    Martell1996/QML/RemovePersonAnimationCircle.qml \
+    Martell1996/QML/RemovePersonAnimationSquare.qml \
     math/special_functions/detail/lambert_w_lookup_table.ipp

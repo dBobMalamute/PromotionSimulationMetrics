@@ -136,6 +136,8 @@ Rectangle
             font.bold: true
             font.pointSize: 12
             color: "black"
+            ToolTip.text: "Odds women in top level vs bottom level"
+            ToolTip.visible: tboddsRatioMouseArea.containsMouse;
         }
         Text
         {
@@ -147,6 +149,14 @@ Rectangle
             font.bold: true
             font.pointSize: 12
             color: "black"
+            ToolTip.text: "Odds women in top level vs bottom level"
+            ToolTip.visible: tboddsRatioMouseArea.containsMouse;
+        }
+        MouseArea
+        {
+            id: tboddsRatioMouseArea
+            anchors.fill: parent
+            hoverEnabled: true;
         }
     }
 
@@ -170,6 +180,8 @@ Rectangle
             font.bold: true
             font.pointSize: 12
             color: "black"
+            ToolTip.text: "Odds women vs men\nin top two levels"
+            ToolTip.visible: wmoddsRatioMouseArea.containsMouse;
         }
         Text
         {
@@ -181,6 +193,14 @@ Rectangle
             font.bold: true
             font.pointSize: 12
             color: "black"
+            ToolTip.text: "Odds women vs men\nin top two levels"
+            ToolTip.visible: wmoddsRatioMouseArea.containsMouse;
+        }
+        MouseArea
+        {
+            id: wmoddsRatioMouseArea
+            anchors.fill: parent
+            hoverEnabled: true;
         }
     }
     Rectangle
@@ -203,6 +223,8 @@ Rectangle
             font.bold: true
             font.pointSize: 12
             color: "black"
+            ToolTip.text: "Original Employees"
+            ToolTip.visible: originalsMouseArea.containsMouse;
         }
         Text
         {
@@ -214,6 +236,14 @@ Rectangle
             font.bold: true
             font.pointSize: 12
             color: "black"
+            ToolTip.text: "Original Employees"
+            ToolTip.visible: originalsMouseArea.containsMouse;
+        }
+        MouseArea
+        {
+            id: originalsMouseArea
+            anchors.fill: parent
+            hoverEnabled: true;
         }
     }
     Rectangle

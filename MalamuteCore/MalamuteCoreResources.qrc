@@ -6,17 +6,14 @@
         <file>QML/Wire.qml</file>
         <file>QML/PaletteToolTip.qml</file>
         <file>QML/StopLight.qml</file>
-        <file>QML/SingleMalamuteMenus.qml</file>
         <file>QML/PostIt.qml</file>
         <file>QML/PopupMenuFunctions.js</file>
         <file>QML/PaletteItem.qml</file>
         <file>QML/PaletteBarUtilites.js</file>
         <file>QML/PaletteBar.qml</file>
         <file>QML/Malamute.qml</file>
-        <file>QML/LegalMenu.qml</file>
         <file>QML/DragCreationItem.qml</file>
         <file>QML/Casing.qml</file>
-        <file>QML/AboutMenu.qml</file>
         <file>Images/SmallerCursor.png</file>
         <file>Images/StylizedCursor2.png</file>
         <file>Images/Gear.png</file>

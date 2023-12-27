@@ -3,9 +3,9 @@
 
 #include <QtMath>
 #include <memory>
-#include "../../DataTypes/DistributionDataType.h"
+#include "../DataTypes/DistributionDataType.h"
 #include <QRandomGenerator>
-#include "../Common/BoostIncludes.h"
+#include "BoostIncludes.h"
 
 class GaussianPDF : public DistributionPDF
 {

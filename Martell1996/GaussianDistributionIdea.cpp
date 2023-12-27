@@ -1,10 +1,10 @@
 #include "GaussianDistributionIdea.h"
-#include "DistributionMakers/GaussianDistributionBuilder.h"
+#include "GaussianDistributionBuilder.h"
 
 GaussianDistributionAttributes::GaussianDistributionAttributes()
 {
     m_listName = "Gaussian Distribution";
-    m_displayName = "Gaussian Distribution";
+    m_displayName = "Gaussian\nDistribution";
     m_authors << "dBob";
     m_description = "This box creates a Gaussian distribution. The Gaussian or normal distribution is usually used "
                     "when you have limited information. It is the best distribution to use when you have a rough idea"
@@ -19,13 +19,7 @@ GaussianDistributionAttributes::GaussianDistributionAttributes()
     m_labelsOut << "Dist";
     m_customLabels = true;
 
-    m_embeddedQMLPath = ":/QML/GaussianDistributionIdea.qml";
-    m_minimizable = true;
-    m_minimizedName = "Gaussian\nDistribution";
-    m_differentNameOnMinimized = true;
-
     m_gear = true;
-
 }
 
 const IdeaAttributes GaussianDistributionIdea::attributes()

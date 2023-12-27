@@ -8,7 +8,6 @@
         <file>Icons/Martell1996Simulation.png</file>
         <file>Icons/Martell1996DataDisplay.png</file>
         <file>QML/ModifiedMartellGroup.qml</file>
-        <file>QML/ModifiedMartellGroupMinimized.qml</file>
         <file>QML/ModifiedMartell.qml</file>
         <file>QML/ModifiedMartellPieChartPath.qml</file>
         <file>QML/ModifiedMartellPieChartKey.qml</file>
@@ -21,6 +20,9 @@
         <file>Icons/ModifiedMartellDataDisplay.png</file>
         <file>QML/ModifiedMartellPersonDot.qml</file>
         <file>QML/Martell1996Controls3.qml</file>
-        <file>ExampleMutts/NewMutt.mutt</file>
+        <file>Icons/NumberInput.png</file>
+        <file>QML/NumberInputIdea.qml</file>
+        <file>Icons/GaussianDistribution.png</file>
+        <file>ExampleMutts/InitialMutt.mutt</file>
     </qresource>
 </RCC>

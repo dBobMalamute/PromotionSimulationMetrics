@@ -1,10 +1,10 @@
 ﻿#ifndef DISTRIBUTIONTEMPLATE_H
 #define DISTRIBUTIONTEMPLATE_H
 
-#include "../../MalamuteCore/InheritedClasses/Idea.h"
-#include "../../DataTypes/NumberDataType.h"
-#include "../../DataTypes/DistributionDataType.h"
-#include "../Common/DistributionCommonFunctions.h"
+#include "../MalamuteCore/InheritedClasses/Idea.h"
+#include "../DataTypes/NumberDataType.h"
+#include "../DataTypes/DistributionDataType.h"
+#include "DistributionCommonFunctions.h"
 
 class DistributionTemplate : public Idea
 {

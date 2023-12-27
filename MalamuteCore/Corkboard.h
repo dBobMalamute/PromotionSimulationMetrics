@@ -37,7 +37,7 @@
 const QString corkboardOperationsMimeType = "application/malamuteCasing";
 const QString casingStateMimeType = "application/malamuteCasingState";
 
-#define HEADER_HEIGHT 103
+#define HEADER_HEIGHT 63
 
 class CorkboardBackend;
 

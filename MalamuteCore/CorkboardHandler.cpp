@@ -8,9 +8,6 @@
 #include <QSettings>
 #include <QQmlApplicationEngine>
 
-#include "Utilities/UtilitiesPlugin.h"
-#include "Calculator/CalculatorPlugin.h"
-#include "Distributions/DistributionsPlugin.h"
 #include "Martell1996/Martell1996Plugin.h"
 
 #include "Registries/DataTypeRegistry.h"
@@ -19,9 +16,6 @@
 
 void CorkboardHandler::LoadPlugins()
 {
-    loadPlugin(new DistributionsPlugin());
-    loadPlugin(new UtilitiesPlugin());
-    loadPlugin(new CalculatorPlugin());
     loadPlugin(new Martell1996Plugin());
 }
 
@@ -53,7 +47,7 @@ CorkboardHandler::CorkboardHandler(QObject *parent) :
 
 void CorkboardHandler::loadInitialFile()
 {
-    load(QUrl("qrc:/ExampleMutts/NewMutt.mutt"));
+    load(QUrl("qrc:/ExampleMutts/InitialMutt.mutt"));
 }
 
 CorkboardHandler::~CorkboardHandler()
