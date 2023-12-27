@@ -40,7 +40,7 @@ DISTNAME      = 6_RedoPyramidVisuals.js1.0.0
 DISTDIR = /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/.tmp/6_RedoPyramidVisuals.js1.0.0
 LINK          = em++
 LFLAGS        = -s WASM=1 -s FULL_ES2=1 -s FULL_ES3=1 -s USE_WEBGL2=1 -s EXIT_RUNTIME=1 -s ERROR_ON_UNDEFINED_SYMBOLS=1 -s EXTRA_EXPORTED_RUNTIME_METHODS=["UTF16ToString","stringToUTF16"] --bind -s FETCH=1 -O2 -s TOTAL_MEMORY=33554432 -s ALLOW_MEMORY_GROWTH=1
-LIBS          = $(SUBLIBS) /home/david/Qt/5.15.2/wasm_32/plugins/platforms/libqwasm.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5EventDispatcherSupport.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5FontDatabaseSupport.a /home/david/Qt/5.15.2/wasm_32/lib/libqtfreetype.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5EglSupport.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqgif.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqicns.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqico.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqjpeg.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqtga.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqtiff.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqwbmp.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqwebp.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Shapes/libqmlshapesplugin.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QuickShapes.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/libdialogplugin.a /home/david/Qt/5.15.2/wasm_32/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/Private/libdialogsprivateplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls/libqtquickcontrolsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/PrivateWidgets/libwidgetsplugin.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Widgets.a /home/david/Qt/5.15.2/wasm_32/qml/QtQml/libqmlplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Layouts/libqquicklayoutsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.a /home/david/Qt/5.15.2/wasm_32/qml/Qt/labs/settings/libqmlsettingsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQml/Models.2/libmodelsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Window.2/libwindowplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick.2/libqtquick2plugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Universal/libqtquickcontrols2universalstyleplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Fusion/libqtquickcontrols2fusionstyleplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Imagine/libqtquickcontrols2imaginestyleplugin.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QuickControls2.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QuickTemplates2.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Quick.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Gui.a /home/david/Qt/5.15.2/wasm_32/lib/libqtlibpng.a /home/david/Qt/5.15.2/wasm_32/lib/libqtharfbuzz.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QmlModels.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Qml.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Network.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Core.a /home/david/Qt/5.15.2/wasm_32/lib/libqtpcre2.a   
+LIBS          = $(SUBLIBS) /home/david/Qt/5.15.2/wasm_32/plugins/platforms/libqwasm.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5EventDispatcherSupport.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5FontDatabaseSupport.a /home/david/Qt/5.15.2/wasm_32/lib/libqtfreetype.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5EglSupport.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqgif.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqicns.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqico.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqjpeg.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqtga.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqtiff.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqwbmp.a /home/david/Qt/5.15.2/wasm_32/plugins/imageformats/libqwebp.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Shapes/libqmlshapesplugin.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QuickShapes.a /home/david/Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/libdialogplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQml/Models.2/libmodelsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.a /home/david/Qt/5.15.2/wasm_32/qml/Qt/labs/settings/libqmlsettingsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/Private/libdialogsprivateplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls/libqtquickcontrolsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/PrivateWidgets/libwidgetsplugin.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Widgets.a /home/david/Qt/5.15.2/wasm_32/qml/QtQml/libqmlplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Layouts/libqquicklayoutsplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Window.2/libwindowplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick.2/libqtquick2plugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Universal/libqtquickcontrols2universalstyleplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Fusion/libqtquickcontrols2fusionstyleplugin.a /home/david/Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Imagine/libqtquickcontrols2imaginestyleplugin.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QuickControls2.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QuickTemplates2.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Quick.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Gui.a /home/david/Qt/5.15.2/wasm_32/lib/libqtlibpng.a /home/david/Qt/5.15.2/wasm_32/lib/libqtharfbuzz.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5QmlModels.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Qml.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Network.a /home/david/Qt/5.15.2/wasm_32/lib/libQt5Core.a /home/david/Qt/5.15.2/wasm_32/lib/libqtpcre2.a   
 AR            = emar cqs
 RANLIB        = 
 SED           = sed
@@ -52,25 +52,8 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = Calculator/AdditionIdea.cpp \
-		Calculator/CalculatorPlugin.cpp \
-		Calculator/DivisionIdea.cpp \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.cpp \
-		Calculator/LabeledNumberDisplayIdea.cpp \
-		Calculator/LabeledNumberInputIdea.cpp \
-		Calculator/MultiplicationIdea.cpp \
-		Calculator/NumberDisplayIdea.cpp \
-		Calculator/NumberInputIdea.cpp \
-		Calculator/SubtractionIdea.cpp \
-		DataTypes/DistributionDataType.cpp \
+SOURCES       = DataTypes/DistributionDataType.cpp \
 		DataTypes/NumberDataType.cpp \
-		Distributions/Common/BoostIncludes.cpp \
-		Distributions/Common/DistributionCommonFunctions.cpp \
-		Distributions/DistributionDisplayIdea.cpp \
-		Distributions/DistributionMakers/GaussianDistributionBuilder.cpp \
-		Distributions/DistributionsPlugin.cpp \
-		Distributions/GaussianDistributionIdea.cpp \
-		Distributions/IdeaTemplates/DistributionTemplate.cpp \
 		MalamuteCore/Casing.cpp \
 		MalamuteCore/CasingBackend.cpp \
 		MalamuteCore/CasingState.cpp \
@@ -113,6 +96,11 @@ SOURCES       = Calculator/AdditionIdea.cpp \
 		MalamuteCore/WireCasingInteraction.cpp \
 		MalamuteCore/WireState.cpp \
 		MalamuteCore/main.cpp \
+		Martell1996/BoostIncludes.cpp \
+		Martell1996/DistributionCommonFunctions.cpp \
+		Martell1996/DistributionTemplate.cpp \
+		Martell1996/GaussianDistributionBuilder.cpp \
+		Martell1996/GaussianDistributionIdea.cpp \
 		Martell1996/Martell1996Plugin.cpp \
 		Martell1996/ModifiedMartellDataDisplayIdea.cpp \
 		Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.cpp \
@@ -125,31 +113,12 @@ SOURCES       = Calculator/AdditionIdea.cpp \
 		Martell1996/ModifiedMartellParamsEtc.cpp \
 		Martell1996/ModifiedMartellPerson.cpp \
 		Martell1996/ModifiedMartellPersonDotsGoverner.cpp \
+		Martell1996/NumberInputIdea.cpp \
 		Martell1996/SimulationGender.cpp \
-		Martell1996/SimulationMode.cpp \
-		Utilities/TextAreaIdea.cpp \
-		Utilities/TextLineIdea.cpp \
-		Utilities/UtilitiesPlugin.cpp /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/6_redopyramidvisuals.js_plugin_import.cpp \
+		Martell1996/SimulationMode.cpp /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/6_redopyramidvisuals.js_plugin_import.cpp \
 		/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/6_redopyramidvisuals.js_qml_plugin_import.cpp \
-		qrc_CalculatorResources.cpp \
-		qrc_DistributionResources.cpp \
 		qrc_MalamuteCoreResources.cpp \
 		qrc_Martell1996Resources.cpp \
-		qrc_UtilitiesResources.cpp \
-		moc_AdditionIdea.cpp \
-		moc_CalculatorPlugin.cpp \
-		moc_DivisionIdea.cpp \
-		moc_TwoToOneIdeaTemplate.cpp \
-		moc_LabeledNumberDisplayIdea.cpp \
-		moc_LabeledNumberInputIdea.cpp \
-		moc_MultiplicationIdea.cpp \
-		moc_NumberDisplayIdea.cpp \
-		moc_NumberInputIdea.cpp \
-		moc_SubtractionIdea.cpp \
-		moc_DistributionDisplayIdea.cpp \
-		moc_DistributionsPlugin.cpp \
-		moc_GaussianDistributionIdea.cpp \
-		moc_DistributionTemplate.cpp \
 		moc_Casing.cpp \
 		moc_CasingBackend.cpp \
 		moc_Corkboard.cpp \
@@ -165,6 +134,8 @@ SOURCES       = Calculator/AdditionIdea.cpp \
 		moc_WireStyle.cpp \
 		moc_Wire.cpp \
 		moc_WireBackend.cpp \
+		moc_DistributionTemplate.cpp \
+		moc_GaussianDistributionIdea.cpp \
 		moc_Martell1996Plugin.cpp \
 		moc_ModifiedMartellDataDisplayIdea.cpp \
 		moc_ModifiedMartellDataDisplaySummaryTableLevel.cpp \
@@ -172,29 +143,10 @@ SOURCES       = Calculator/AdditionIdea.cpp \
 		moc_ModifiedMartellGroupIdea.cpp \
 		moc_ModifiedMartellIdea.cpp \
 		moc_ModifiedMartellOrganizationLevel.cpp \
-		moc_SimulationMode.cpp \
-		moc_TextAreaIdea.cpp \
-		moc_TextLineIdea.cpp \
-		moc_UtilitiesPlugin.cpp
-OBJECTS       = AdditionIdea.o \
-		CalculatorPlugin.o \
-		DivisionIdea.o \
-		TwoToOneIdeaTemplate.o \
-		LabeledNumberDisplayIdea.o \
-		LabeledNumberInputIdea.o \
-		MultiplicationIdea.o \
-		NumberDisplayIdea.o \
-		NumberInputIdea.o \
-		SubtractionIdea.o \
-		DistributionDataType.o \
+		moc_NumberInputIdea.cpp \
+		moc_SimulationMode.cpp
+OBJECTS       = DistributionDataType.o \
 		NumberDataType.o \
-		BoostIncludes.o \
-		DistributionCommonFunctions.o \
-		DistributionDisplayIdea.o \
-		GaussianDistributionBuilder.o \
-		DistributionsPlugin.o \
-		GaussianDistributionIdea.o \
-		DistributionTemplate.o \
 		Casing.o \
 		CasingBackend.o \
 		CasingState.o \
@@ -237,6 +189,11 @@ OBJECTS       = AdditionIdea.o \
 		WireCasingInteraction.o \
 		WireState.o \
 		main.o \
+		BoostIncludes.o \
+		DistributionCommonFunctions.o \
+		DistributionTemplate.o \
+		GaussianDistributionBuilder.o \
+		GaussianDistributionIdea.o \
 		Martell1996Plugin.o \
 		ModifiedMartellDataDisplayIdea.o \
 		ModifiedMartellDataDisplaySummaryTableLevel.o \
@@ -249,32 +206,13 @@ OBJECTS       = AdditionIdea.o \
 		ModifiedMartellParamsEtc.o \
 		ModifiedMartellPerson.o \
 		ModifiedMartellPersonDotsGoverner.o \
+		NumberInputIdea.o \
 		SimulationGender.o \
 		SimulationMode.o \
-		TextAreaIdea.o \
-		TextLineIdea.o \
-		UtilitiesPlugin.o \
 		6_redopyramidvisuals.js_plugin_import.o \
 		6_redopyramidvisuals.js_qml_plugin_import.o \
-		qrc_CalculatorResources.o \
-		qrc_DistributionResources.o \
 		qrc_MalamuteCoreResources.o \
 		qrc_Martell1996Resources.o \
-		qrc_UtilitiesResources.o \
-		moc_AdditionIdea.o \
-		moc_CalculatorPlugin.o \
-		moc_DivisionIdea.o \
-		moc_TwoToOneIdeaTemplate.o \
-		moc_LabeledNumberDisplayIdea.o \
-		moc_LabeledNumberInputIdea.o \
-		moc_MultiplicationIdea.o \
-		moc_NumberDisplayIdea.o \
-		moc_NumberInputIdea.o \
-		moc_SubtractionIdea.o \
-		moc_DistributionDisplayIdea.o \
-		moc_DistributionsPlugin.o \
-		moc_GaussianDistributionIdea.o \
-		moc_DistributionTemplate.o \
 		moc_Casing.o \
 		moc_CasingBackend.o \
 		moc_Corkboard.o \
@@ -290,6 +228,8 @@ OBJECTS       = AdditionIdea.o \
 		moc_WireStyle.o \
 		moc_Wire.o \
 		moc_WireBackend.o \
+		moc_DistributionTemplate.o \
+		moc_GaussianDistributionIdea.o \
 		moc_Martell1996Plugin.o \
 		moc_ModifiedMartellDataDisplayIdea.o \
 		moc_ModifiedMartellDataDisplaySummaryTableLevel.o \
@@ -297,12 +237,9 @@ OBJECTS       = AdditionIdea.o \
 		moc_ModifiedMartellGroupIdea.o \
 		moc_ModifiedMartellIdea.o \
 		moc_ModifiedMartellOrganizationLevel.o \
-		moc_SimulationMode.o \
-		moc_TextAreaIdea.o \
-		moc_TextLineIdea.o \
-		moc_UtilitiesPlugin.o
-DIST          = math/special_functions/detail/lambert_w_lookup_table.ipp \
-		../../../Qt/5.15.2/wasm_32/mkspecs/features/spec_pre.prf \
+		moc_NumberInputIdea.o \
+		moc_SimulationMode.o
+DIST          = ../../../Qt/5.15.2/wasm_32/mkspecs/features/spec_pre.prf \
 		../../../Qt/5.15.2/wasm_32/mkspecs/common/sanitize.conf \
 		../../../Qt/5.15.2/wasm_32/mkspecs/common/gcc-base.conf \
 		../../../Qt/5.15.2/wasm_32/mkspecs/common/clang.conf \
@@ -450,25 +387,8 @@ DIST          = math/special_functions/detail/lambert_w_lookup_table.ipp \
 		../../../Qt/5.15.2/wasm_32/mkspecs/features/exceptions.prf \
 		../../../Qt/5.15.2/wasm_32/mkspecs/features/yacc.prf \
 		../../../Qt/5.15.2/wasm_32/mkspecs/features/lex.prf \
-		6_RedoPyramidVisuals.pro Calculator/AdditionIdea.h \
-		Calculator/CalculatorPlugin.h \
-		Calculator/DivisionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		Calculator/LabeledNumberDisplayIdea.h \
-		Calculator/LabeledNumberInputIdea.h \
-		Calculator/MultiplicationIdea.h \
-		Calculator/NumberDisplayIdea.h \
-		Calculator/NumberInputIdea.h \
-		Calculator/SubtractionIdea.h \
-		DataTypes/DistributionDataType.h \
+		6_RedoPyramidVisuals.pro DataTypes/DistributionDataType.h \
 		DataTypes/NumberDataType.h \
-		Distributions/Common/BoostIncludes.h \
-		Distributions/Common/DistributionCommonFunctions.h \
-		Distributions/DistributionDisplayIdea.h \
-		Distributions/DistributionMakers/GaussianDistributionBuilder.h \
-		Distributions/DistributionsPlugin.h \
-		Distributions/GaussianDistributionIdea.h \
-		Distributions/IdeaTemplates/DistributionTemplate.h \
 		MalamuteCore/Casing.h \
 		MalamuteCore/CasingBackend.h \
 		MalamuteCore/CasingState.h \
@@ -514,6 +434,11 @@ DIST          = math/special_functions/detail/lambert_w_lookup_table.ipp \
 		MalamuteCore/WireBackend.h \
 		MalamuteCore/WireCasingInteraction.h \
 		MalamuteCore/WireState.h \
+		Martell1996/BoostIncludes.h \
+		Martell1996/DistributionCommonFunctions.h \
+		Martell1996/DistributionTemplate.h \
+		Martell1996/GaussianDistributionBuilder.h \
+		Martell1996/GaussianDistributionIdea.h \
 		Martell1996/Martell1996Plugin.h \
 		Martell1996/ModifiedMartellDataDisplayIdea.h \
 		Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.h \
@@ -526,29 +451,10 @@ DIST          = math/special_functions/detail/lambert_w_lookup_table.ipp \
 		Martell1996/ModifiedMartellParamsEtc.h \
 		Martell1996/ModifiedMartellPerson.h \
 		Martell1996/ModifiedMartellPersonDotsGoverner.h \
+		Martell1996/NumberInputIdea.h \
 		Martell1996/SimulationGender.h \
-		Martell1996/SimulationMode.h \
-		Utilities/TextAreaIdea.h \
-		Utilities/TextLineIdea.h \
-		Utilities/UtilitiesPlugin.h Calculator/AdditionIdea.cpp \
-		Calculator/CalculatorPlugin.cpp \
-		Calculator/DivisionIdea.cpp \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.cpp \
-		Calculator/LabeledNumberDisplayIdea.cpp \
-		Calculator/LabeledNumberInputIdea.cpp \
-		Calculator/MultiplicationIdea.cpp \
-		Calculator/NumberDisplayIdea.cpp \
-		Calculator/NumberInputIdea.cpp \
-		Calculator/SubtractionIdea.cpp \
-		DataTypes/DistributionDataType.cpp \
+		Martell1996/SimulationMode.h DataTypes/DistributionDataType.cpp \
 		DataTypes/NumberDataType.cpp \
-		Distributions/Common/BoostIncludes.cpp \
-		Distributions/Common/DistributionCommonFunctions.cpp \
-		Distributions/DistributionDisplayIdea.cpp \
-		Distributions/DistributionMakers/GaussianDistributionBuilder.cpp \
-		Distributions/DistributionsPlugin.cpp \
-		Distributions/GaussianDistributionIdea.cpp \
-		Distributions/IdeaTemplates/DistributionTemplate.cpp \
 		MalamuteCore/Casing.cpp \
 		MalamuteCore/CasingBackend.cpp \
 		MalamuteCore/CasingState.cpp \
@@ -591,6 +497,11 @@ DIST          = math/special_functions/detail/lambert_w_lookup_table.ipp \
 		MalamuteCore/WireCasingInteraction.cpp \
 		MalamuteCore/WireState.cpp \
 		MalamuteCore/main.cpp \
+		Martell1996/BoostIncludes.cpp \
+		Martell1996/DistributionCommonFunctions.cpp \
+		Martell1996/DistributionTemplate.cpp \
+		Martell1996/GaussianDistributionBuilder.cpp \
+		Martell1996/GaussianDistributionIdea.cpp \
 		Martell1996/Martell1996Plugin.cpp \
 		Martell1996/ModifiedMartellDataDisplayIdea.cpp \
 		Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.cpp \
@@ -603,11 +514,9 @@ DIST          = math/special_functions/detail/lambert_w_lookup_table.ipp \
 		Martell1996/ModifiedMartellParamsEtc.cpp \
 		Martell1996/ModifiedMartellPerson.cpp \
 		Martell1996/ModifiedMartellPersonDotsGoverner.cpp \
+		Martell1996/NumberInputIdea.cpp \
 		Martell1996/SimulationGender.cpp \
-		Martell1996/SimulationMode.cpp \
-		Utilities/TextAreaIdea.cpp \
-		Utilities/TextLineIdea.cpp \
-		Utilities/UtilitiesPlugin.cpp
+		Martell1996/SimulationMode.cpp
 QMAKE_TARGET  = 6_RedoPyramidVisuals.js
 DESTDIR       = 
 TARGET        = 6_RedoPyramidVisuals.js
@@ -768,11 +677,8 @@ Makefile: 6_RedoPyramidVisuals.pro ../../../Qt/5.15.2/wasm_32/mkspecs/wasm-emscr
 		../../../Qt/5.15.2/wasm_32/mkspecs/features/yacc.prf \
 		../../../Qt/5.15.2/wasm_32/mkspecs/features/lex.prf \
 		6_RedoPyramidVisuals.pro \
-		Calculator/CalculatorResources.qrc \
-		Distributions/DistributionResources.qrc \
 		MalamuteCore/MalamuteCoreResources.qrc \
 		Martell1996/Martell1996Resources.qrc \
-		Utilities/UtilitiesResources.qrc \
 		../../../Qt/5.15.2/wasm_32/plugins/platforms/libqwasm.prl \
 		../../../Qt/5.15.2/wasm_32/plugins/imageformats/libqgif.prl \
 		../../../Qt/5.15.2/wasm_32/plugins/imageformats/libqicns.prl \
@@ -791,23 +697,23 @@ Makefile: 6_RedoPyramidVisuals.pro ../../../Qt/5.15.2/wasm_32/mkspecs/wasm-emscr
 		../../../Qt/5.15.2/wasm_32/lib/libQt5Network.prl \
 		../../../Qt/5.15.2/wasm_32/lib/libQt5Core.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick.2/libqtquick2plugin.prl \
-		../../../Qt/5.15.2/wasm_32/qml/QtQml/libqmlplugin.prl \
-		../../../Qt/5.15.2/wasm_32/qml/QtQml/Models.2/libmodelsplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.prl \
+		../../../Qt/5.15.2/wasm_32/qml/QtQml/libqmlplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.prl \
+		../../../Qt/5.15.2/wasm_32/qml/QtQml/Models.2/libmodelsplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Window.2/libwindowplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Shapes/libqmlshapesplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Layouts/libqquicklayoutsplugin.prl \
+		../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.prl \
+		../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/libdialogplugin.prl \
-		../../../Qt/5.15.2/wasm_32/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/Qt/labs/settings/libqmlsettingsplugin.prl \
+		../../../Qt/5.15.2/wasm_32/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/Private/libdialogsprivateplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls/libqtquickcontrolsplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/PrivateWidgets/libwidgetsplugin.prl \
-		../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.prl \
-		../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.prl \
-		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Universal/libqtquickcontrols2universalstyleplugin.prl \
+		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Fusion/libqtquickcontrols2fusionstyleplugin.prl \
 		../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Imagine/libqtquickcontrols2imaginestyleplugin.prl
 	$(QMAKE) -o Makefile 6_RedoPyramidVisuals.pro
@@ -960,11 +866,8 @@ Makefile: 6_RedoPyramidVisuals.pro ../../../Qt/5.15.2/wasm_32/mkspecs/wasm-emscr
 ../../../Qt/5.15.2/wasm_32/mkspecs/features/yacc.prf:
 ../../../Qt/5.15.2/wasm_32/mkspecs/features/lex.prf:
 6_RedoPyramidVisuals.pro:
-Calculator/CalculatorResources.qrc:
-Distributions/DistributionResources.qrc:
 MalamuteCore/MalamuteCoreResources.qrc:
 Martell1996/Martell1996Resources.qrc:
-Utilities/UtilitiesResources.qrc:
 ../../../Qt/5.15.2/wasm_32/plugins/platforms/libqwasm.prl:
 ../../../Qt/5.15.2/wasm_32/plugins/imageformats/libqgif.prl:
 ../../../Qt/5.15.2/wasm_32/plugins/imageformats/libqicns.prl:
@@ -983,23 +886,23 @@ Utilities/UtilitiesResources.qrc:
 ../../../Qt/5.15.2/wasm_32/lib/libQt5Network.prl:
 ../../../Qt/5.15.2/wasm_32/lib/libQt5Core.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick.2/libqtquick2plugin.prl:
-../../../Qt/5.15.2/wasm_32/qml/QtQml/libqmlplugin.prl:
-../../../Qt/5.15.2/wasm_32/qml/QtQml/Models.2/libmodelsplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.prl:
+../../../Qt/5.15.2/wasm_32/qml/QtQml/libqmlplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.prl:
+../../../Qt/5.15.2/wasm_32/qml/QtQml/Models.2/libmodelsplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Window.2/libwindowplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Shapes/libqmlshapesplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Layouts/libqquicklayoutsplugin.prl:
+../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.prl:
+../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/libdialogplugin.prl:
-../../../Qt/5.15.2/wasm_32/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/Qt/labs/settings/libqmlsettingsplugin.prl:
+../../../Qt/5.15.2/wasm_32/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Dialogs/Private/libdialogsprivateplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls/libqtquickcontrolsplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/PrivateWidgets/libwidgetsplugin.prl:
-../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin.prl:
-../../../Qt/5.15.2/wasm_32/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.prl:
-../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Universal/libqtquickcontrols2universalstyleplugin.prl:
+../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Fusion/libqtquickcontrols2fusionstyleplugin.prl:
 ../../../Qt/5.15.2/wasm_32/qml/QtQuick/Controls.2/Imagine/libqtquickcontrols2imaginestyleplugin.prl:
 qmake: FORCE
@@ -1016,10 +919,10 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
-	$(COPY_FILE) --parents Calculator/CalculatorResources.qrc Distributions/DistributionResources.qrc MalamuteCore/MalamuteCoreResources.qrc Martell1996/Martell1996Resources.qrc Utilities/UtilitiesResources.qrc $(DISTDIR)/
+	$(COPY_FILE) --parents MalamuteCore/MalamuteCoreResources.qrc Martell1996/Martell1996Resources.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents ../../../Qt/5.15.2/wasm_32/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents Calculator/AdditionIdea.h Calculator/CalculatorPlugin.h Calculator/DivisionIdea.h Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h Calculator/LabeledNumberDisplayIdea.h Calculator/LabeledNumberInputIdea.h Calculator/MultiplicationIdea.h Calculator/NumberDisplayIdea.h Calculator/NumberInputIdea.h Calculator/SubtractionIdea.h DataTypes/DistributionDataType.h DataTypes/NumberDataType.h Distributions/Common/BoostIncludes.h Distributions/Common/DistributionCommonFunctions.h Distributions/DistributionDisplayIdea.h Distributions/DistributionMakers/GaussianDistributionBuilder.h Distributions/DistributionsPlugin.h Distributions/GaussianDistributionIdea.h Distributions/IdeaTemplates/DistributionTemplate.h MalamuteCore/Casing.h MalamuteCore/CasingBackend.h MalamuteCore/CasingState.h MalamuteCore/Commands/AddCasingCommand.h MalamuteCore/Commands/AddDefaultDisplayCommand.h MalamuteCore/Commands/AddDefaultSourceCommand.h MalamuteCore/Commands/AddPostItCommand.h MalamuteCore/Commands/AddSelectionCommand.h MalamuteCore/Commands/AddWireCommand.h MalamuteCore/Commands/ChangeColorsCommand.h MalamuteCore/Commands/ChangeParamsCommand.h MalamuteCore/Commands/DeleteCasingCommand.h MalamuteCore/Commands/DeletePostItCommand.h MalamuteCore/Commands/DeleteSelectionCommand.h MalamuteCore/Commands/DeleteWireCommand.h MalamuteCore/Commands/MinimizeCasingCommand.h MalamuteCore/Commands/MoveSelectionCommand.h MalamuteCore/Commands/ResizeCasingCommand.h MalamuteCore/Commands/ShiftWireCommand.h MalamuteCore/Corkboard.h MalamuteCore/CorkboardBackend.h MalamuteCore/CorkboardHandler.h MalamuteCore/InheritedClasses/DataType.h MalamuteCore/InheritedClasses/DataTypeAttributes.h MalamuteCore/InheritedClasses/Idea.h MalamuteCore/InheritedClasses/IdeaAttributes.h MalamuteCore/InheritedClasses/Magic.h MalamuteCore/InheritedClasses/MalamutePlugin.h MalamuteCore/Plug.h MalamuteCore/PostIt.h MalamuteCore/QMLRegisterHelper.h MalamuteCore/Registries/DataTypeRegistry.h MalamuteCore/Registries/IdeaRegistry.h MalamuteCore/Registries/ToolbarRegistry.h MalamuteCore/Styling/CasingStyle.h MalamuteCore/Styling/ControlsStyle.h MalamuteCore/Styling/CorkboardStyle.h MalamuteCore/Styling/GearStyle.h MalamuteCore/Styling/PostItStyle.h MalamuteCore/Styling/WireStyle.h MalamuteCore/SurfaceAndStyleSetup.h MalamuteCore/Wire.h MalamuteCore/WireBackend.h MalamuteCore/WireCasingInteraction.h MalamuteCore/WireState.h Martell1996/Martell1996Plugin.h Martell1996/ModifiedMartellDataDisplayIdea.h Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.h Martell1996/ModifiedMartellDataDisplaySummaryTableModel.h Martell1996/ModifiedMartellDataType.h Martell1996/ModifiedMartellGroupDataType.h Martell1996/ModifiedMartellGroupIdea.h Martell1996/ModifiedMartellIdea.h Martell1996/ModifiedMartellOrganizationLevel.h Martell1996/ModifiedMartellParamsEtc.h Martell1996/ModifiedMartellPerson.h Martell1996/ModifiedMartellPersonDotsGoverner.h Martell1996/SimulationGender.h Martell1996/SimulationMode.h Utilities/TextAreaIdea.h Utilities/TextLineIdea.h Utilities/UtilitiesPlugin.h $(DISTDIR)/
-	$(COPY_FILE) --parents Calculator/AdditionIdea.cpp Calculator/CalculatorPlugin.cpp Calculator/DivisionIdea.cpp Calculator/IdeaTemplates/TwoToOneIdeaTemplate.cpp Calculator/LabeledNumberDisplayIdea.cpp Calculator/LabeledNumberInputIdea.cpp Calculator/MultiplicationIdea.cpp Calculator/NumberDisplayIdea.cpp Calculator/NumberInputIdea.cpp Calculator/SubtractionIdea.cpp DataTypes/DistributionDataType.cpp DataTypes/NumberDataType.cpp Distributions/Common/BoostIncludes.cpp Distributions/Common/DistributionCommonFunctions.cpp Distributions/DistributionDisplayIdea.cpp Distributions/DistributionMakers/GaussianDistributionBuilder.cpp Distributions/DistributionsPlugin.cpp Distributions/GaussianDistributionIdea.cpp Distributions/IdeaTemplates/DistributionTemplate.cpp MalamuteCore/Casing.cpp MalamuteCore/CasingBackend.cpp MalamuteCore/CasingState.cpp MalamuteCore/Commands/AddCasingCommand.cpp MalamuteCore/Commands/AddDefaultDisplayCommand.cpp MalamuteCore/Commands/AddDefaultSourceCommand.cpp MalamuteCore/Commands/AddPostItCommand.cpp MalamuteCore/Commands/AddSelectionCommand.cpp MalamuteCore/Commands/AddWireCommand.cpp MalamuteCore/Commands/ChangeColorsCommand.cpp MalamuteCore/Commands/ChangeParamsCommand.cpp MalamuteCore/Commands/DeleteCasingCommand.cpp MalamuteCore/Commands/DeletePostItCommand.cpp MalamuteCore/Commands/DeleteSelectionCommand.cpp MalamuteCore/Commands/DeleteWireCommand.cpp MalamuteCore/Commands/MinimizeCasingCommand.cpp MalamuteCore/Commands/MoveSelectionCommand.cpp MalamuteCore/Commands/ResizeCasingCommand.cpp MalamuteCore/Commands/ShiftWireCommand.cpp MalamuteCore/Corkboard.cpp MalamuteCore/CorkboardBackend.cpp MalamuteCore/CorkboardHandler.cpp MalamuteCore/InheritedClasses/DataType.cpp MalamuteCore/InheritedClasses/DataTypeAttributes.cpp MalamuteCore/InheritedClasses/Idea.cpp MalamuteCore/InheritedClasses/IdeaAttributes.cpp MalamuteCore/InheritedClasses/MalamutePlugin.cpp MalamuteCore/PostIt.cpp MalamuteCore/Registries/DataTypeRegistry.cpp MalamuteCore/Registries/IdeaRegistry.cpp MalamuteCore/Registries/ToolbarRegistry.cpp MalamuteCore/Styling/CasingStyle.cpp MalamuteCore/Styling/ControlsStyle.cpp MalamuteCore/Styling/CorkboardStyle.cpp MalamuteCore/Styling/GearStyle.cpp MalamuteCore/Styling/PostItStyle.cpp MalamuteCore/Styling/WireStyle.cpp MalamuteCore/Wire.cpp MalamuteCore/WireBackend.cpp MalamuteCore/WireCasingInteraction.cpp MalamuteCore/WireState.cpp MalamuteCore/main.cpp Martell1996/Martell1996Plugin.cpp Martell1996/ModifiedMartellDataDisplayIdea.cpp Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.cpp Martell1996/ModifiedMartellDataDisplaySummaryTableModel.cpp Martell1996/ModifiedMartellDataType.cpp Martell1996/ModifiedMartellGroupDataType.cpp Martell1996/ModifiedMartellGroupIdea.cpp Martell1996/ModifiedMartellIdea.cpp Martell1996/ModifiedMartellOrganizationLevel.cpp Martell1996/ModifiedMartellParamsEtc.cpp Martell1996/ModifiedMartellPerson.cpp Martell1996/ModifiedMartellPersonDotsGoverner.cpp Martell1996/SimulationGender.cpp Martell1996/SimulationMode.cpp Utilities/TextAreaIdea.cpp Utilities/TextLineIdea.cpp Utilities/UtilitiesPlugin.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents DataTypes/DistributionDataType.h DataTypes/NumberDataType.h MalamuteCore/Casing.h MalamuteCore/CasingBackend.h MalamuteCore/CasingState.h MalamuteCore/Commands/AddCasingCommand.h MalamuteCore/Commands/AddDefaultDisplayCommand.h MalamuteCore/Commands/AddDefaultSourceCommand.h MalamuteCore/Commands/AddPostItCommand.h MalamuteCore/Commands/AddSelectionCommand.h MalamuteCore/Commands/AddWireCommand.h MalamuteCore/Commands/ChangeColorsCommand.h MalamuteCore/Commands/ChangeParamsCommand.h MalamuteCore/Commands/DeleteCasingCommand.h MalamuteCore/Commands/DeletePostItCommand.h MalamuteCore/Commands/DeleteSelectionCommand.h MalamuteCore/Commands/DeleteWireCommand.h MalamuteCore/Commands/MinimizeCasingCommand.h MalamuteCore/Commands/MoveSelectionCommand.h MalamuteCore/Commands/ResizeCasingCommand.h MalamuteCore/Commands/ShiftWireCommand.h MalamuteCore/Corkboard.h MalamuteCore/CorkboardBackend.h MalamuteCore/CorkboardHandler.h MalamuteCore/InheritedClasses/DataType.h MalamuteCore/InheritedClasses/DataTypeAttributes.h MalamuteCore/InheritedClasses/Idea.h MalamuteCore/InheritedClasses/IdeaAttributes.h MalamuteCore/InheritedClasses/Magic.h MalamuteCore/InheritedClasses/MalamutePlugin.h MalamuteCore/Plug.h MalamuteCore/PostIt.h MalamuteCore/QMLRegisterHelper.h MalamuteCore/Registries/DataTypeRegistry.h MalamuteCore/Registries/IdeaRegistry.h MalamuteCore/Registries/ToolbarRegistry.h MalamuteCore/Styling/CasingStyle.h MalamuteCore/Styling/ControlsStyle.h MalamuteCore/Styling/CorkboardStyle.h MalamuteCore/Styling/GearStyle.h MalamuteCore/Styling/PostItStyle.h MalamuteCore/Styling/WireStyle.h MalamuteCore/SurfaceAndStyleSetup.h MalamuteCore/Wire.h MalamuteCore/WireBackend.h MalamuteCore/WireCasingInteraction.h MalamuteCore/WireState.h Martell1996/BoostIncludes.h Martell1996/DistributionCommonFunctions.h Martell1996/DistributionTemplate.h Martell1996/GaussianDistributionBuilder.h Martell1996/GaussianDistributionIdea.h Martell1996/Martell1996Plugin.h Martell1996/ModifiedMartellDataDisplayIdea.h Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.h Martell1996/ModifiedMartellDataDisplaySummaryTableModel.h Martell1996/ModifiedMartellDataType.h Martell1996/ModifiedMartellGroupDataType.h Martell1996/ModifiedMartellGroupIdea.h Martell1996/ModifiedMartellIdea.h Martell1996/ModifiedMartellOrganizationLevel.h Martell1996/ModifiedMartellParamsEtc.h Martell1996/ModifiedMartellPerson.h Martell1996/ModifiedMartellPersonDotsGoverner.h Martell1996/NumberInputIdea.h Martell1996/SimulationGender.h Martell1996/SimulationMode.h $(DISTDIR)/
+	$(COPY_FILE) --parents DataTypes/DistributionDataType.cpp DataTypes/NumberDataType.cpp MalamuteCore/Casing.cpp MalamuteCore/CasingBackend.cpp MalamuteCore/CasingState.cpp MalamuteCore/Commands/AddCasingCommand.cpp MalamuteCore/Commands/AddDefaultDisplayCommand.cpp MalamuteCore/Commands/AddDefaultSourceCommand.cpp MalamuteCore/Commands/AddPostItCommand.cpp MalamuteCore/Commands/AddSelectionCommand.cpp MalamuteCore/Commands/AddWireCommand.cpp MalamuteCore/Commands/ChangeColorsCommand.cpp MalamuteCore/Commands/ChangeParamsCommand.cpp MalamuteCore/Commands/DeleteCasingCommand.cpp MalamuteCore/Commands/DeletePostItCommand.cpp MalamuteCore/Commands/DeleteSelectionCommand.cpp MalamuteCore/Commands/DeleteWireCommand.cpp MalamuteCore/Commands/MinimizeCasingCommand.cpp MalamuteCore/Commands/MoveSelectionCommand.cpp MalamuteCore/Commands/ResizeCasingCommand.cpp MalamuteCore/Commands/ShiftWireCommand.cpp MalamuteCore/Corkboard.cpp MalamuteCore/CorkboardBackend.cpp MalamuteCore/CorkboardHandler.cpp MalamuteCore/InheritedClasses/DataType.cpp MalamuteCore/InheritedClasses/DataTypeAttributes.cpp MalamuteCore/InheritedClasses/Idea.cpp MalamuteCore/InheritedClasses/IdeaAttributes.cpp MalamuteCore/InheritedClasses/MalamutePlugin.cpp MalamuteCore/PostIt.cpp MalamuteCore/Registries/DataTypeRegistry.cpp MalamuteCore/Registries/IdeaRegistry.cpp MalamuteCore/Registries/ToolbarRegistry.cpp MalamuteCore/Styling/CasingStyle.cpp MalamuteCore/Styling/ControlsStyle.cpp MalamuteCore/Styling/CorkboardStyle.cpp MalamuteCore/Styling/GearStyle.cpp MalamuteCore/Styling/PostItStyle.cpp MalamuteCore/Styling/WireStyle.cpp MalamuteCore/Wire.cpp MalamuteCore/WireBackend.cpp MalamuteCore/WireCasingInteraction.cpp MalamuteCore/WireState.cpp MalamuteCore/main.cpp Martell1996/BoostIncludes.cpp Martell1996/DistributionCommonFunctions.cpp Martell1996/DistributionTemplate.cpp Martell1996/GaussianDistributionBuilder.cpp Martell1996/GaussianDistributionIdea.cpp Martell1996/Martell1996Plugin.cpp Martell1996/ModifiedMartellDataDisplayIdea.cpp Martell1996/ModifiedMartellDataDisplaySummaryTableLevel.cpp Martell1996/ModifiedMartellDataDisplaySummaryTableModel.cpp Martell1996/ModifiedMartellDataType.cpp Martell1996/ModifiedMartellGroupDataType.cpp Martell1996/ModifiedMartellGroupIdea.cpp Martell1996/ModifiedMartellIdea.cpp Martell1996/ModifiedMartellOrganizationLevel.cpp Martell1996/ModifiedMartellParamsEtc.cpp Martell1996/ModifiedMartellPerson.cpp Martell1996/ModifiedMartellPersonDotsGoverner.cpp Martell1996/NumberInputIdea.cpp Martell1996/SimulationGender.cpp Martell1996/SimulationMode.cpp $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -1063,132 +966,23 @@ compiler_appjs_clean:
 compiler_appsvg_make_all:
 compiler_appsvg_clean:
 	-$(DEL_FILE) qtlogo.svg
-compiler_rcc_make_all: qrc_CalculatorResources.cpp qrc_DistributionResources.cpp qrc_MalamuteCoreResources.cpp qrc_Martell1996Resources.cpp qrc_UtilitiesResources.cpp
+compiler_rcc_make_all: qrc_MalamuteCoreResources.cpp qrc_Martell1996Resources.cpp
 compiler_rcc_clean:
-	-$(DEL_FILE) qrc_CalculatorResources.cpp qrc_DistributionResources.cpp qrc_MalamuteCoreResources.cpp qrc_Martell1996Resources.cpp qrc_UtilitiesResources.cpp
-qrc_CalculatorResources.cpp: Calculator/CalculatorResources.qrc \
-		../../../Qt/5.15.2/wasm_32/bin/rcc \
-		Calculator/QML/MultiplicationIdea.qml \
-		Calculator/QML/DivisionIdea.qml \
-		Calculator/QML/LabeledNumberInputIdea.qml \
-		Calculator/QML/AdditionIdea.qml \
-		Calculator/QML/NumberDisplayIdea.qml \
-		Calculator/QML/SubtractionIdea.qml \
-		Calculator/QML/NumberInputIdea.qml \
-		Calculator/QML/LabeledNumberDisplayIdea.qml \
-		Calculator/QML/QMLTemplates/TwoToOneTemplate.qml \
-		Calculator/Icons/SquareRoot.png \
-		Calculator/Icons/Multiplication.png \
-		Calculator/Icons/LabeledNumberDisplay.png \
-		Calculator/Icons/LabeledNumberInput.png \
-		Calculator/Icons/Subtraction.png \
-		Calculator/Icons/Division.png \
-		Calculator/Icons/Addition.png \
-		Calculator/Icons/NumberInput.png \
-		Calculator/Icons/NumberDisplay.png
-	/home/david/Qt/5.15.2/wasm_32/bin/rcc -name CalculatorResources Calculator/CalculatorResources.qrc -o qrc_CalculatorResources.cpp
-
-qrc_DistributionResources.cpp: Distributions/DistributionResources.qrc \
-		../../../Qt/5.15.2/wasm_32/bin/rcc \
-		Distributions/QML/MeanFromDistributionSamplerBar.qml \
-		Distributions/QML/VarianceFromDistributionVarianceBox.qml \
-		Distributions/QML/DistributionSamplerIdea.qml \
-		Distributions/QML/VarianceFromDistributionSamplerIdea.qml \
-		Distributions/QML/DistributionSamplerDot.qml \
-		Distributions/QML/DistributionKurtosisMinimized.qml \
-		Distributions/QML/PoissonDistributionIdea.qml \
-		Distributions/QML/DistributionDisplayDiscreteDot.qml \
-		Distributions/QML/DistributionSkewMinimized.qml \
-		Distributions/QML/GammaDistributionIdea.qml \
-		Distributions/QML/DistributionDisplayIdea.qml \
-		Distributions/QML/StdevFromDistributionSamplerIdeaVariance.qml \
-		Distributions/QML/DistributionSamplerMinimized.qml \
-		Distributions/QML/ValueAtDistributionPointIdea.qml \
-		Distributions/QML/BetaDistributionIdea.qml \
-		Distributions/QML/ParetoDistributionIdea.qml \
-		Distributions/QML/DistributionMeanIdea.qml \
-		Distributions/QML/CauchyDistributionIdea.qml \
-		Distributions/QML/ExponentialDistributionIdea.qml \
-		Distributions/QML/DistributionModeIdea.qml \
-		Distributions/QML/DistributionBinnerControls2.qml \
-		Distributions/QML/ValueAtDistributionPointMinimized.qml \
-		Distributions/QML/DistributionMeanWeightedBar.qml \
-		Distributions/QML/NegativeBinomialDistributionIdea.qml \
-		Distributions/QML/GaussianPPDistributionIdea.qml \
-		Distributions/QML/DistributionMeanMinimized.qml \
-		Distributions/QML/WeibullDistributionIdea.qml \
-		Distributions/QML/DistributionMeanRectangle.qml \
-		Distributions/QML/MedianFromDistributionSamplesDot.qml \
-		Distributions/QML/UniformDistributionIdea.qml \
-		Distributions/QML/DistributionModeMinimized.qml \
-		Distributions/QML/FDistributionIdea.qml \
-		Distributions/QML/ErlangDistributionIdea.qml \
-		Distributions/QML/TriangleDistributionIdea.qml \
-		Distributions/QML/DistributionBinnerControls.qml \
-		Distributions/QML/SpeedControl.qml \
-		Distributions/QML/StdevFromDistributionSamplesDot.qml \
-		Distributions/QML/StdevFromDistributionStdevLine.qml \
-		Distributions/QML/DistributionWeighterIdea.qml \
-		Distributions/QML/AreaUnderDistributionMinimized.qml \
-		Distributions/QML/DistributionStandardDeviationIdea.qml \
-		Distributions/QML/StdevFromDistributionSamplerBars.qml \
-		Distributions/QML/MeanFromDistributionSamplesDot.qml \
-		Distributions/QML/DistributionBinnerPathLine.qml \
-		Distributions/QML/VarianceFromDistributionSamplerMinimized.qml \
-		Distributions/QML/DistributionReportNumber.qml \
-		Distributions/QML/MeanFromDistributionSamplerMinimized.qml \
-		Distributions/QML/DistributionBinnerIdeaBoundsLine.qml \
-		Distributions/QML/GaussianDistributionIdea.qml \
-		Distributions/QML/MeanFromDistributionMeanLine.qml \
-		Distributions/QML/CDFDisplayIdea.qml \
-		Distributions/QML/DistributionMedianIdea.qml \
-		Distributions/QML/DistributionAnalyzerIdea.qml \
-		Distributions/QML/DistributionMedianMinimized.qml \
-		Distributions/QML/DistributionDisplayControls.qml \
-		Distributions/QML/BinomialDistributionIdea.qml \
-		Distributions/QML/DistributionStandardDeviationRectangle.qml \
-		Distributions/QML/MeanFromDistributionSamplerIdea.qml \
-		Distributions/QML/DistributionVarianceIdea.qml \
-		Distributions/QML/LogLogisticDistributionIdea.qml \
-		Distributions/QML/StdevFromDistributionSamplerIdea.qml \
-		Distributions/QML/DistributionBinnerDiscreteDot.qml \
-		Distributions/QML/DistributionStandardDeviationMinimized.qml \
-		Distributions/QML/DagumDistributionIdea.qml \
-		Distributions/QML/AreaUnderDistributionIdea.qml \
-		Distributions/QML/Chi2DistributionIdea.qml \
-		Distributions/QML/StudentTDistributionIdea.qml \
-		Distributions/QML/VarianceFromDistributionSamplerBars.qml \
-		Distributions/QML/DistributionBinnerIdea.qml \
-		Distributions/QML/GeometricDistributionIdea.qml \
-		Distributions/QML/DistributionVarianceMinimized.qml \
-		Distributions/QML/DistributionBinnerIdeaBar.qml \
-		Distributions/QML/StdevFromDistributionSamplerMinimized.qml \
-		Distributions/QML/MedianFromDistributionSamplerIdea.qml \
-		Distributions/QML/QMLTemplates/DistributionDisplay.qml \
-		Distributions/QML/QMLTemplates/SamplerTemplate.qml \
-		Distributions/QML/QMLTemplates/UpDownButton.qml \
-		Distributions/Icons/GaussianDistribution.png \
-		Distributions/Icons/DistributionDisplay.png \
-		Distributions/Images/GridLines.png
-	/home/david/Qt/5.15.2/wasm_32/bin/rcc -name DistributionResources Distributions/DistributionResources.qrc -o qrc_DistributionResources.cpp
-
+	-$(DEL_FILE) qrc_MalamuteCoreResources.cpp qrc_Martell1996Resources.cpp
 qrc_MalamuteCoreResources.cpp: MalamuteCore/MalamuteCoreResources.qrc \
 		../../../Qt/5.15.2/wasm_32/bin/rcc \
 		MalamuteCore/QML/DragCreationItem.qml \
 		MalamuteCore/QML/StopLight.qml \
 		MalamuteCore/QML/PostIt.qml \
 		MalamuteCore/QML/PaletteBar.qml \
-		MalamuteCore/QML/LegalMenu.qml \
 		MalamuteCore/QML/Casing.qml \
 		MalamuteCore/QML/PaletteBarUtilites.js \
 		MalamuteCore/QML/PaletteItem.qml \
 		MalamuteCore/QML/CasingGear.qml \
 		MalamuteCore/QML/PaletteToolTip.qml \
-		MalamuteCore/QML/SingleMalamuteMenus.qml \
 		MalamuteCore/QML/PopupMenuFunctions.js \
 		MalamuteCore/QML/Wire.qml \
 		MalamuteCore/QML/Malamute.qml \
-		MalamuteCore/QML/AboutMenu.qml \
 		MalamuteCore/Images/SmallerCursor.png \
 		MalamuteCore/Images/CasingColors1.png \
 		MalamuteCore/Images/CasingColors2.png \
@@ -1213,41 +1007,24 @@ qrc_MalamuteCoreResources.cpp: MalamuteCore/MalamuteCoreResources.qrc \
 
 qrc_Martell1996Resources.cpp: Martell1996/Martell1996Resources.qrc \
 		../../../Qt/5.15.2/wasm_32/bin/rcc \
-		Martell1996/QML/ModifiedMartellGroupMinimized.qml \
 		Martell1996/QML/ModifiedMartell.qml \
 		Martell1996/QML/ModifiedMartellDataDisplay.qml \
-		Martell1996/QML/RemovePersonAnimationCircle.qml \
 		Martell1996/QML/ModifiedMartellGroup.qml \
 		Martell1996/QML/ModifiedMartellPieChartPath.qml \
-		Martell1996/QML/PromotePersonAnimationSquare.qml \
-		Martell1996/QML/NewHireAnimationCircle.qml \
 		Martell1996/QML/ModifiedMartellPieChartKey.qml \
 		Martell1996/QML/ModifiedMartellPyramidSetup.qml \
 		Martell1996/QML/ModifiedMartellPersonDot.qml \
-		Martell1996/QML/RemovePersonAnimationSquare.qml \
 		Martell1996/QML/Martell1996Controls3.qml \
-		Martell1996/QML/NewHireAnimationSquare.qml \
+		Martell1996/QML/NumberInputIdea.qml \
 		Martell1996/Icons/ModifiedMartellDataDisplay.png \
 		Martell1996/Icons/ModifiedMartellGroup.png \
+		Martell1996/Icons/GaussianDistribution.png \
 		Martell1996/Icons/Martell1996DataDisplay.png \
 		Martell1996/Icons/Martell1996Simulation.png \
 		Martell1996/Icons/ModifiedMartellSimulation.png \
-		Martell1996/ExampleMutts/NewMutt.mutt \
-		Martell1996/Images/GreenerPastures.png \
-		Martell1996/Images/NewHires.png
+		Martell1996/Icons/NumberInput.png \
+		Martell1996/ExampleMutts/InitialMutt.mutt
 	/home/david/Qt/5.15.2/wasm_32/bin/rcc -name Martell1996Resources Martell1996/Martell1996Resources.qrc -o qrc_Martell1996Resources.cpp
-
-qrc_UtilitiesResources.cpp: Utilities/UtilitiesResources.qrc \
-		../../../Qt/5.15.2/wasm_32/bin/rcc \
-		Utilities/QML/TextLineIdea.qml \
-		Utilities/QML/TextEditorControls.qml \
-		Utilities/QML/TextAreaIdea.qml \
-		Utilities/QML/TextControls.qml \
-		Utilities/QML/TextEditorIdea.qml \
-		Utilities/Icons/TextLine.png \
-		Utilities/Icons/TextArea.png \
-		Utilities/Icons/CloseIcon.png
-	/home/david/Qt/5.15.2/wasm_32/bin/rcc -name UtilitiesResources Utilities/UtilitiesResources.qrc -o qrc_UtilitiesResources.cpp
 
 compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
@@ -1255,1482 +1032,9 @@ compiler_moc_predefs_clean:
 moc_predefs.h: ../../../Qt/5.15.2/wasm_32/mkspecs/features/data/dummy.cpp
 	em++ -pipe -O2 -std=gnu++1z -s ALLOW_MEMORY_GROWTH=1 -Wall -Wextra -dM -E -o moc_predefs.h ../../../Qt/5.15.2/wasm_32/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_AdditionIdea.cpp moc_CalculatorPlugin.cpp moc_DivisionIdea.cpp moc_TwoToOneIdeaTemplate.cpp moc_LabeledNumberDisplayIdea.cpp moc_LabeledNumberInputIdea.cpp moc_MultiplicationIdea.cpp moc_NumberDisplayIdea.cpp moc_NumberInputIdea.cpp moc_SubtractionIdea.cpp moc_DistributionDisplayIdea.cpp moc_DistributionsPlugin.cpp moc_GaussianDistributionIdea.cpp moc_DistributionTemplate.cpp moc_Casing.cpp moc_CasingBackend.cpp moc_Corkboard.cpp moc_CorkboardBackend.cpp moc_CorkboardHandler.cpp moc_Idea.cpp moc_PostIt.cpp moc_CasingStyle.cpp moc_ControlsStyle.cpp moc_CorkboardStyle.cpp moc_GearStyle.cpp moc_PostItStyle.cpp moc_WireStyle.cpp moc_Wire.cpp moc_WireBackend.cpp moc_Martell1996Plugin.cpp moc_ModifiedMartellDataDisplayIdea.cpp moc_ModifiedMartellDataDisplaySummaryTableLevel.cpp moc_ModifiedMartellDataDisplaySummaryTableModel.cpp moc_ModifiedMartellGroupIdea.cpp moc_ModifiedMartellIdea.cpp moc_ModifiedMartellOrganizationLevel.cpp moc_SimulationMode.cpp moc_TextAreaIdea.cpp moc_TextLineIdea.cpp moc_UtilitiesPlugin.cpp
+compiler_moc_header_make_all: moc_Casing.cpp moc_CasingBackend.cpp moc_Corkboard.cpp moc_CorkboardBackend.cpp moc_CorkboardHandler.cpp moc_Idea.cpp moc_PostIt.cpp moc_CasingStyle.cpp moc_ControlsStyle.cpp moc_CorkboardStyle.cpp moc_GearStyle.cpp moc_PostItStyle.cpp moc_WireStyle.cpp moc_Wire.cpp moc_WireBackend.cpp moc_DistributionTemplate.cpp moc_GaussianDistributionIdea.cpp moc_Martell1996Plugin.cpp moc_ModifiedMartellDataDisplayIdea.cpp moc_ModifiedMartellDataDisplaySummaryTableLevel.cpp moc_ModifiedMartellDataDisplaySummaryTableModel.cpp moc_ModifiedMartellGroupIdea.cpp moc_ModifiedMartellIdea.cpp moc_ModifiedMartellOrganizationLevel.cpp moc_NumberInputIdea.cpp moc_SimulationMode.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_AdditionIdea.cpp moc_CalculatorPlugin.cpp moc_DivisionIdea.cpp moc_TwoToOneIdeaTemplate.cpp moc_LabeledNumberDisplayIdea.cpp moc_LabeledNumberInputIdea.cpp moc_MultiplicationIdea.cpp moc_NumberDisplayIdea.cpp moc_NumberInputIdea.cpp moc_SubtractionIdea.cpp moc_DistributionDisplayIdea.cpp moc_DistributionsPlugin.cpp moc_GaussianDistributionIdea.cpp moc_DistributionTemplate.cpp moc_Casing.cpp moc_CasingBackend.cpp moc_Corkboard.cpp moc_CorkboardBackend.cpp moc_CorkboardHandler.cpp moc_Idea.cpp moc_PostIt.cpp moc_CasingStyle.cpp moc_ControlsStyle.cpp moc_CorkboardStyle.cpp moc_GearStyle.cpp moc_PostItStyle.cpp moc_WireStyle.cpp moc_Wire.cpp moc_WireBackend.cpp moc_Martell1996Plugin.cpp moc_ModifiedMartellDataDisplayIdea.cpp moc_ModifiedMartellDataDisplaySummaryTableLevel.cpp moc_ModifiedMartellDataDisplaySummaryTableModel.cpp moc_ModifiedMartellGroupIdea.cpp moc_ModifiedMartellIdea.cpp moc_ModifiedMartellOrganizationLevel.cpp moc_SimulationMode.cpp moc_TextAreaIdea.cpp moc_TextLineIdea.cpp moc_UtilitiesPlugin.cpp
-moc_AdditionIdea.cpp: Calculator/AdditionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/AdditionIdea.h -o moc_AdditionIdea.cpp
-
-moc_CalculatorPlugin.cpp: Calculator/CalculatorPlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/MalamutePlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/QQmlEngine \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqmlglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqml-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetworkglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetwork-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmldebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqml.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlprivate.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlparserstatus.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmllist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlpropertyvaluesource.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetaobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlerror.h \
-		MalamuteCore/Registries/DataTypeRegistry.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/Registries/IdeaRegistry.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		MalamuteCore/Registries/ToolbarRegistry.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/CalculatorPlugin.h -o moc_CalculatorPlugin.cpp
-
-moc_DivisionIdea.cpp: Calculator/DivisionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/DivisionIdea.h -o moc_DivisionIdea.cpp
-
-moc_TwoToOneIdeaTemplate.cpp: Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h -o moc_TwoToOneIdeaTemplate.cpp
-
-moc_LabeledNumberDisplayIdea.cpp: Calculator/LabeledNumberDisplayIdea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/LabeledNumberDisplayIdea.h -o moc_LabeledNumberDisplayIdea.cpp
-
-moc_LabeledNumberInputIdea.cpp: Calculator/LabeledNumberInputIdea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/LabeledNumberInputIdea.h -o moc_LabeledNumberInputIdea.cpp
-
-moc_MultiplicationIdea.cpp: Calculator/MultiplicationIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/MultiplicationIdea.h -o moc_MultiplicationIdea.cpp
-
-moc_NumberDisplayIdea.cpp: Calculator/NumberDisplayIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/NumberDisplayIdea.h -o moc_NumberDisplayIdea.cpp
-
-moc_NumberInputIdea.cpp: Calculator/NumberInputIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/NumberInputIdea.h -o moc_NumberInputIdea.cpp
-
-moc_SubtractionIdea.cpp: Calculator/SubtractionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Calculator/SubtractionIdea.h -o moc_SubtractionIdea.cpp
-
-moc_DistributionDisplayIdea.cpp: Distributions/DistributionDisplayIdea.h \
-		Distributions/IdeaTemplates/DistributionTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		Distributions/Common/DistributionCommonFunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Distributions/DistributionDisplayIdea.h -o moc_DistributionDisplayIdea.cpp
-
-moc_DistributionsPlugin.cpp: Distributions/DistributionsPlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/MalamutePlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/QQmlEngine \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqmlglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqml-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetworkglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetwork-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmldebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqml.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlprivate.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlparserstatus.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmllist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlpropertyvaluesource.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetaobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlerror.h \
-		MalamuteCore/Registries/DataTypeRegistry.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/Registries/IdeaRegistry.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		MalamuteCore/Registries/ToolbarRegistry.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Distributions/DistributionsPlugin.h -o moc_DistributionsPlugin.cpp
-
-moc_GaussianDistributionIdea.cpp: Distributions/GaussianDistributionIdea.h \
-		Distributions/IdeaTemplates/DistributionTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		Distributions/Common/DistributionCommonFunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Distributions/GaussianDistributionIdea.h -o moc_GaussianDistributionIdea.cpp
-
-moc_DistributionTemplate.cpp: Distributions/IdeaTemplates/DistributionTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		Distributions/Common/DistributionCommonFunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Distributions/IdeaTemplates/DistributionTemplate.h -o moc_DistributionTemplate.cpp
-
+	-$(DEL_FILE) moc_Casing.cpp moc_CasingBackend.cpp moc_Corkboard.cpp moc_CorkboardBackend.cpp moc_CorkboardHandler.cpp moc_Idea.cpp moc_PostIt.cpp moc_CasingStyle.cpp moc_ControlsStyle.cpp moc_CorkboardStyle.cpp moc_GearStyle.cpp moc_PostItStyle.cpp moc_WireStyle.cpp moc_Wire.cpp moc_WireBackend.cpp moc_DistributionTemplate.cpp moc_GaussianDistributionIdea.cpp moc_Martell1996Plugin.cpp moc_ModifiedMartellDataDisplayIdea.cpp moc_ModifiedMartellDataDisplaySummaryTableLevel.cpp moc_ModifiedMartellDataDisplaySummaryTableModel.cpp moc_ModifiedMartellGroupIdea.cpp moc_ModifiedMartellIdea.cpp moc_ModifiedMartellOrganizationLevel.cpp moc_NumberInputIdea.cpp moc_SimulationMode.cpp
 moc_Casing.cpp: MalamuteCore/Casing.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
@@ -4554,6 +2858,219 @@ moc_WireBackend.cpp: MalamuteCore/WireBackend.h \
 		../../../Qt/5.15.2/wasm_32/bin/moc
 	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore MalamuteCore/WireBackend.h -o moc_WireBackend.cpp
 
+moc_DistributionTemplate.cpp: Martell1996/DistributionTemplate.h \
+		MalamuteCore/InheritedClasses/Idea.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
+		MalamuteCore/Plug.h \
+		MalamuteCore/InheritedClasses/DataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		MalamuteCore/InheritedClasses/IdeaAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		DataTypes/NumberDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
+		DataTypes/DistributionDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
+		Martell1996/DistributionCommonFunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
+		moc_predefs.h \
+		../../../Qt/5.15.2/wasm_32/bin/moc
+	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Martell1996/DistributionTemplate.h -o moc_DistributionTemplate.cpp
+
+moc_GaussianDistributionIdea.cpp: Martell1996/GaussianDistributionIdea.h \
+		Martell1996/DistributionTemplate.h \
+		MalamuteCore/InheritedClasses/Idea.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
+		MalamuteCore/Plug.h \
+		MalamuteCore/InheritedClasses/DataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		MalamuteCore/InheritedClasses/IdeaAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		DataTypes/NumberDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
+		DataTypes/DistributionDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
+		Martell1996/DistributionCommonFunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
+		moc_predefs.h \
+		../../../Qt/5.15.2/wasm_32/bin/moc
+	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Martell1996/GaussianDistributionIdea.h -o moc_GaussianDistributionIdea.cpp
+
 moc_Martell1996Plugin.cpp: Martell1996/Martell1996Plugin.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
@@ -5059,7 +3576,7 @@ moc_ModifiedMartellGroupIdea.cpp: Martell1996/ModifiedMartellGroupIdea.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QTimer \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qtimer.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasictimer.h \
-		Distributions/Common/DistributionCommonFunctions.h \
+		Martell1996/DistributionCommonFunctions.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/wasm_32/bin/moc
 	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Martell1996/ModifiedMartellGroupIdea.h -o moc_ModifiedMartellGroupIdea.cpp
@@ -5216,7 +3733,7 @@ moc_ModifiedMartellIdea.cpp: Martell1996/ModifiedMartellIdea.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QRandomGenerator \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qrandom.h \
 		Martell1996/ModifiedMartellGroupDataType.h \
-		Distributions/Common/DistributionCommonFunctions.h \
+		Martell1996/DistributionCommonFunctions.h \
 		Martell1996/SimulationMode.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/wasm_32/bin/moc
@@ -5367,10 +3884,111 @@ moc_ModifiedMartellOrganizationLevel.cpp: Martell1996/ModifiedMartellOrganizatio
 		MalamuteCore/InheritedClasses/Magic.h \
 		DataTypes/DistributionDataType.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		Distributions/Common/DistributionCommonFunctions.h \
+		Martell1996/DistributionCommonFunctions.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/wasm_32/bin/moc
 	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Martell1996/ModifiedMartellOrganizationLevel.h -o moc_ModifiedMartellOrganizationLevel.cpp
+
+moc_NumberInputIdea.cpp: Martell1996/NumberInputIdea.h \
+		MalamuteCore/InheritedClasses/Idea.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
+		MalamuteCore/Plug.h \
+		MalamuteCore/InheritedClasses/DataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		MalamuteCore/InheritedClasses/IdeaAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		DataTypes/NumberDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
+		moc_predefs.h \
+		../../../Qt/5.15.2/wasm_32/bin/moc
+	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Martell1996/NumberInputIdea.h -o moc_NumberInputIdea.cpp
 
 moc_SimulationMode.cpp: Martell1996/SimulationMode.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
@@ -5430,318 +4048,6 @@ moc_SimulationMode.cpp: Martell1996/SimulationMode.h \
 		../../../Qt/5.15.2/wasm_32/bin/moc
 	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Martell1996/SimulationMode.h -o moc_SimulationMode.cpp
 
-moc_TextAreaIdea.cpp: Utilities/TextAreaIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Utilities/TextAreaIdea.h -o moc_TextAreaIdea.cpp
-
-moc_TextLineIdea.cpp: Utilities/TextLineIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Utilities/TextLineIdea.h -o moc_TextLineIdea.cpp
-
-moc_UtilitiesPlugin.cpp: Utilities/UtilitiesPlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/MalamutePlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/QQmlEngine \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqmlglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqml-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetworkglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetwork-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmldebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqml.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlprivate.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlparserstatus.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmllist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlpropertyvaluesource.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetaobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlerror.h \
-		MalamuteCore/Registries/DataTypeRegistry.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/Registries/IdeaRegistry.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		MalamuteCore/Registries/ToolbarRegistry.h \
-		moc_predefs.h \
-		../../../Qt/5.15.2/wasm_32/bin/moc
-	/home/david/Qt/5.15.2/wasm_32/bin/moc $(DEFINES) --include /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/moc_predefs.h -I/home/david/Qt/5.15.2/wasm_32/mkspecs/wasm-emscripten -I/home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics -I/home/david/Qt/5.15.2/wasm_32/include -I/home/david/Qt/5.15.2/wasm_32/include/QtQuickControls2 -I/home/david/Qt/5.15.2/wasm_32/include/QtQuick -I/home/david/Qt/5.15.2/wasm_32/include/QtWidgets -I/home/david/Qt/5.15.2/wasm_32/include/QtGui -I/home/david/Qt/5.15.2/wasm_32/include/QtQmlModels -I/home/david/Qt/5.15.2/wasm_32/include/QtQml -I/home/david/Qt/5.15.2/wasm_32/include/QtNetwork -I/home/david/Qt/5.15.2/wasm_32/include/QtCore Utilities/UtilitiesPlugin.h -o moc_UtilitiesPlugin.cpp
-
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
 compiler_moc_source_make_all:
@@ -5757,1034 +4063,6 @@ compiler_lex_clean:
 compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_header_clean 
 
 ####### Compile
-
-AdditionIdea.o: Calculator/AdditionIdea.cpp Calculator/AdditionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o AdditionIdea.o Calculator/AdditionIdea.cpp
-
-CalculatorPlugin.o: Calculator/CalculatorPlugin.cpp ../../../Qt/5.15.2/wasm_32/include/QtQml/QQmlEngine \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqmlglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqml-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetworkglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetwork-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmldebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqml.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlprivate.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlparserstatus.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmllist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlpropertyvaluesource.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetaobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlerror.h \
-		Calculator/CalculatorPlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/MalamutePlugin.h \
-		MalamuteCore/Registries/DataTypeRegistry.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/Registries/IdeaRegistry.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		MalamuteCore/Registries/ToolbarRegistry.h \
-		Calculator/AdditionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		Calculator/SubtractionIdea.h \
-		Calculator/MultiplicationIdea.h \
-		Calculator/DivisionIdea.h \
-		Calculator/NumberDisplayIdea.h \
-		Calculator/NumberInputIdea.h \
-		Calculator/LabeledNumberInputIdea.h \
-		Calculator/LabeledNumberDisplayIdea.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o CalculatorPlugin.o Calculator/CalculatorPlugin.cpp
-
-DivisionIdea.o: Calculator/DivisionIdea.cpp Calculator/DivisionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DivisionIdea.o Calculator/DivisionIdea.cpp
-
-TwoToOneIdeaTemplate.o: Calculator/IdeaTemplates/TwoToOneIdeaTemplate.cpp Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o TwoToOneIdeaTemplate.o Calculator/IdeaTemplates/TwoToOneIdeaTemplate.cpp
-
-LabeledNumberDisplayIdea.o: Calculator/LabeledNumberDisplayIdea.cpp Calculator/LabeledNumberDisplayIdea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o LabeledNumberDisplayIdea.o Calculator/LabeledNumberDisplayIdea.cpp
-
-LabeledNumberInputIdea.o: Calculator/LabeledNumberInputIdea.cpp Calculator/LabeledNumberInputIdea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonValue \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o LabeledNumberInputIdea.o Calculator/LabeledNumberInputIdea.cpp
-
-MultiplicationIdea.o: Calculator/MultiplicationIdea.cpp Calculator/MultiplicationIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MultiplicationIdea.o Calculator/MultiplicationIdea.cpp
-
-NumberDisplayIdea.o: Calculator/NumberDisplayIdea.cpp Calculator/NumberDisplayIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o NumberDisplayIdea.o Calculator/NumberDisplayIdea.cpp
-
-NumberInputIdea.o: Calculator/NumberInputIdea.cpp Calculator/NumberInputIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonValue \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o NumberInputIdea.o Calculator/NumberInputIdea.cpp
-
-SubtractionIdea.o: Calculator/SubtractionIdea.cpp Calculator/SubtractionIdea.h \
-		Calculator/IdeaTemplates/TwoToOneIdeaTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o SubtractionIdea.o Calculator/SubtractionIdea.cpp
 
 DistributionDataType.o: DataTypes/DistributionDataType.cpp DataTypes/DistributionDataType.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
@@ -6956,623 +4234,6 @@ NumberDataType.o: DataTypes/NumberDataType.cpp DataTypes/NumberDataType.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
 		MalamuteCore/InheritedClasses/Magic.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o NumberDataType.o DataTypes/NumberDataType.cpp
-
-BoostIncludes.o: Distributions/Common/BoostIncludes.cpp Distributions/Common/BoostIncludes.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o BoostIncludes.o Distributions/Common/BoostIncludes.cpp
-
-DistributionCommonFunctions.o: Distributions/Common/DistributionCommonFunctions.cpp Distributions/Common/DistributionCommonFunctions.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DistributionCommonFunctions.o Distributions/Common/DistributionCommonFunctions.cpp
-
-DistributionDisplayIdea.o: Distributions/DistributionDisplayIdea.cpp Distributions/DistributionDisplayIdea.h \
-		Distributions/IdeaTemplates/DistributionTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		Distributions/Common/DistributionCommonFunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DistributionDisplayIdea.o Distributions/DistributionDisplayIdea.cpp
-
-GaussianDistributionBuilder.o: Distributions/DistributionMakers/GaussianDistributionBuilder.cpp Distributions/DistributionMakers/GaussianDistributionBuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QRandomGenerator \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrandom.h \
-		Distributions/Common/BoostIncludes.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o GaussianDistributionBuilder.o Distributions/DistributionMakers/GaussianDistributionBuilder.cpp
-
-DistributionsPlugin.o: Distributions/DistributionsPlugin.cpp Distributions/DistributionsPlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/MalamutePlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/QQmlEngine \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqmlglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqml-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetworkglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetwork-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmldebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqml.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlprivate.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlparserstatus.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmllist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlpropertyvaluesource.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetaobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlerror.h \
-		MalamuteCore/Registries/DataTypeRegistry.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/Registries/IdeaRegistry.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		MalamuteCore/Registries/ToolbarRegistry.h \
-		Distributions/GaussianDistributionIdea.h \
-		Distributions/IdeaTemplates/DistributionTemplate.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		DataTypes/DistributionDataType.h \
-		Distributions/Common/DistributionCommonFunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		Distributions/DistributionDisplayIdea.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DistributionsPlugin.o Distributions/DistributionsPlugin.cpp
-
-GaussianDistributionIdea.o: Distributions/GaussianDistributionIdea.cpp Distributions/GaussianDistributionIdea.h \
-		Distributions/IdeaTemplates/DistributionTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		Distributions/Common/DistributionCommonFunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		Distributions/DistributionMakers/GaussianDistributionBuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QRandomGenerator \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrandom.h \
-		Distributions/Common/BoostIncludes.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o GaussianDistributionIdea.o Distributions/GaussianDistributionIdea.cpp
-
-DistributionTemplate.o: Distributions/IdeaTemplates/DistributionTemplate.cpp Distributions/IdeaTemplates/DistributionTemplate.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		DataTypes/NumberDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		DataTypes/DistributionDataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		Distributions/Common/DistributionCommonFunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DistributionTemplate.o Distributions/IdeaTemplates/DistributionTemplate.cpp
 
 Casing.o: MalamuteCore/Casing.cpp MalamuteCore/Casing.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
@@ -12317,13 +8978,10 @@ CorkboardHandler.o: MalamuteCore/CorkboardHandler.cpp MalamuteCore/CorkboardHand
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qelapsedtimer.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QSettings \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qsettings.h \
-		Utilities/UtilitiesPlugin.h \
+		Martell1996/Martell1996Plugin.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		Calculator/CalculatorPlugin.h \
-		Distributions/DistributionsPlugin.h \
-		Martell1996/Martell1996Plugin.h
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o CorkboardHandler.o MalamuteCore/CorkboardHandler.cpp
 
 DataType.o: MalamuteCore/InheritedClasses/DataType.cpp MalamuteCore/InheritedClasses/DataType.h \
@@ -14404,6 +11062,391 @@ main.o: MalamuteCore/main.cpp ../../../Qt/5.15.2/wasm_32/include/QtWidgets/QAppl
 		MalamuteCore/Styling/GearStyle.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o MalamuteCore/main.cpp
 
+BoostIncludes.o: Martell1996/BoostIncludes.cpp Martell1996/BoostIncludes.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o BoostIncludes.o Martell1996/BoostIncludes.cpp
+
+DistributionCommonFunctions.o: Martell1996/DistributionCommonFunctions.cpp Martell1996/DistributionCommonFunctions.h \
+		DataTypes/DistributionDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
+		MalamuteCore/InheritedClasses/DataType.h \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DistributionCommonFunctions.o Martell1996/DistributionCommonFunctions.cpp
+
+DistributionTemplate.o: Martell1996/DistributionTemplate.cpp Martell1996/DistributionTemplate.h \
+		MalamuteCore/InheritedClasses/Idea.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
+		MalamuteCore/Plug.h \
+		MalamuteCore/InheritedClasses/DataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		MalamuteCore/InheritedClasses/IdeaAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		DataTypes/NumberDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
+		DataTypes/DistributionDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
+		Martell1996/DistributionCommonFunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o DistributionTemplate.o Martell1996/DistributionTemplate.cpp
+
+GaussianDistributionBuilder.o: Martell1996/GaussianDistributionBuilder.cpp Martell1996/GaussianDistributionBuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		DataTypes/DistributionDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
+		MalamuteCore/InheritedClasses/DataType.h \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QRandomGenerator \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrandom.h \
+		Martell1996/BoostIncludes.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o GaussianDistributionBuilder.o Martell1996/GaussianDistributionBuilder.cpp
+
+GaussianDistributionIdea.o: Martell1996/GaussianDistributionIdea.cpp Martell1996/GaussianDistributionIdea.h \
+		Martell1996/DistributionTemplate.h \
+		MalamuteCore/InheritedClasses/Idea.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
+		MalamuteCore/Plug.h \
+		MalamuteCore/InheritedClasses/DataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		MalamuteCore/InheritedClasses/IdeaAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		DataTypes/NumberDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
+		DataTypes/DistributionDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
+		Martell1996/DistributionCommonFunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
+		Martell1996/GaussianDistributionBuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QRandomGenerator \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrandom.h \
+		Martell1996/BoostIncludes.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o GaussianDistributionIdea.o Martell1996/GaussianDistributionIdea.cpp
+
 Martell1996Plugin.o: Martell1996/Martell1996Plugin.cpp Martell1996/Martell1996Plugin.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
@@ -14522,6 +11565,7 @@ Martell1996Plugin.o: Martell1996/Martell1996Plugin.cpp Martell1996/Martell1996Pl
 		MalamuteCore/Registries/ToolbarRegistry.h \
 		DataTypes/DistributionDataType.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		DataTypes/NumberDataType.h \
 		Martell1996/ModifiedMartellIdea.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QPointF \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QTimer \
@@ -14563,9 +11607,12 @@ Martell1996Plugin.o: Martell1996/Martell1996Plugin.cpp Martell1996/Martell1996Pl
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QRandomGenerator \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qrandom.h \
 		Martell1996/ModifiedMartellGroupDataType.h \
-		Distributions/Common/DistributionCommonFunctions.h \
+		Martell1996/DistributionCommonFunctions.h \
 		Martell1996/SimulationMode.h \
 		Martell1996/ModifiedMartellGroupIdea.h \
+		Martell1996/NumberInputIdea.h \
+		Martell1996/GaussianDistributionIdea.h \
+		Martell1996/DistributionTemplate.h \
 		Martell1996/ModifiedMartellDataDisplayIdea.h \
 		Martell1996/ModifiedMartellDataDisplaySummaryTableModel.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QAbstractListModel \
@@ -15087,7 +12134,7 @@ ModifiedMartellGroupIdea.o: Martell1996/ModifiedMartellGroupIdea.cpp Martell1996
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QTimer \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qtimer.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasictimer.h \
-		Distributions/Common/DistributionCommonFunctions.h
+		Martell1996/DistributionCommonFunctions.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ModifiedMartellGroupIdea.o Martell1996/ModifiedMartellGroupIdea.cpp
 
 ModifiedMartellIdea.o: Martell1996/ModifiedMartellIdea.cpp Martell1996/ModifiedMartellIdea.h \
@@ -15242,7 +12289,7 @@ ModifiedMartellIdea.o: Martell1996/ModifiedMartellIdea.cpp Martell1996/ModifiedM
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QRandomGenerator \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qrandom.h \
 		Martell1996/ModifiedMartellGroupDataType.h \
-		Distributions/Common/DistributionCommonFunctions.h \
+		Martell1996/DistributionCommonFunctions.h \
 		Martell1996/SimulationMode.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QFile \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QDir \
@@ -15395,7 +12442,7 @@ ModifiedMartellOrganizationLevel.o: Martell1996/ModifiedMartellOrganizationLevel
 		MalamuteCore/InheritedClasses/Magic.h \
 		DataTypes/DistributionDataType.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
-		Distributions/Common/DistributionCommonFunctions.h
+		Martell1996/DistributionCommonFunctions.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ModifiedMartellOrganizationLevel.o Martell1996/ModifiedMartellOrganizationLevel.cpp
 
 ModifiedMartellParamsEtc.o: Martell1996/ModifiedMartellParamsEtc.cpp Martell1996/ModifiedMartellParamsEtc.h \
@@ -15533,7 +12580,7 @@ ModifiedMartellParamsEtc.o: Martell1996/ModifiedMartellParamsEtc.cpp Martell1996
 		../../../Qt/5.15.2/wasm_32/include/QtCore/QTimer \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qtimer.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasictimer.h \
-		Distributions/Common/DistributionCommonFunctions.h
+		Martell1996/DistributionCommonFunctions.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ModifiedMartellParamsEtc.o Martell1996/ModifiedMartellParamsEtc.cpp
 
 ModifiedMartellPerson.o: Martell1996/ModifiedMartellPerson.cpp Martell1996/ModifiedMartellPerson.h \
@@ -15782,6 +12829,107 @@ ModifiedMartellPersonDotsGoverner.o: Martell1996/ModifiedMartellPersonDotsGovern
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasictimer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ModifiedMartellPersonDotsGoverner.o Martell1996/ModifiedMartellPersonDotsGoverner.cpp
 
+NumberInputIdea.o: Martell1996/NumberInputIdea.cpp Martell1996/NumberInputIdea.h \
+		MalamuteCore/InheritedClasses/Idea.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
+		MalamuteCore/Plug.h \
+		MalamuteCore/InheritedClasses/DataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
+		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
+		MalamuteCore/InheritedClasses/Magic.h \
+		MalamuteCore/InheritedClasses/IdeaAttributes.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
+		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
+		DataTypes/NumberDataType.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QVariant \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonValue \
+		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o NumberInputIdea.o Martell1996/NumberInputIdea.cpp
+
 SimulationGender.o: Martell1996/SimulationGender.cpp Martell1996/SimulationGender.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o SimulationGender.o Martell1996/SimulationGender.cpp
 
@@ -15841,382 +12989,17 @@ SimulationMode.o: Martell1996/SimulationMode.cpp Martell1996/SimulationMode.h \
 		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o SimulationMode.o Martell1996/SimulationMode.cpp
 
-TextAreaIdea.o: Utilities/TextAreaIdea.cpp Utilities/TextAreaIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o TextAreaIdea.o Utilities/TextAreaIdea.cpp
-
-TextLineIdea.o: Utilities/TextLineIdea.cpp Utilities/TextLineIdea.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtMath \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmath.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o TextLineIdea.o Utilities/TextLineIdea.cpp
-
-UtilitiesPlugin.o: Utilities/UtilitiesPlugin.cpp Utilities/UtilitiesPlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnamespace.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig-bootstrapped.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qconfig.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtcore-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsystemdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qprocessordetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcompilerdetection.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtypeinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsysinfo.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlogging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qflags.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbasicatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_bootstrap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qgenericatomic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_cxx11.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qatomic_msvc.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qglobalstatic.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmutex.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qnumeric.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qversiontagging.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobjectdefs_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qchar.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qrefcount.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qarraydata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringliteral.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringbuilder.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qalgorithms.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiterator.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhashfunctions.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpair.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvector.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainertools_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpoint.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qbytearraylist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringlist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregexp.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qstringmatcher.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcoreevent.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qscopedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetatype.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvarlengtharray.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontainerfwd.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qobject_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QtPlugin \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qplugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qshareddata.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qhash.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qsharedpointer_impl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdatetime.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcborcommon.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qdebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmap.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qtextstream.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qiodevice.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qlocale.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qvariant.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qset.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qcontiguouscache.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qregularexpression.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurl.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qurlquery.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/quuid.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QDebug \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QString \
-		MalamuteCore/InheritedClasses/MalamutePlugin.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/QQmlEngine \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsengine.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qjsvalue.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqmlglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qtqml-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetworkglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtNetwork/qtnetwork-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmldebug.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqml.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlprivate.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlparserstatus.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmllist.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlpropertyvaluesource.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qmetaobject.h \
-		../../../Qt/5.15.2/wasm_32/include/QtQml/qqmlerror.h \
-		MalamuteCore/Registries/DataTypeRegistry.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/QColor \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qcolor.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtguiglobal.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qtgui-config.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgb.h \
-		../../../Qt/5.15.2/wasm_32/include/QtGui/qrgba64.h \
-		MalamuteCore/InheritedClasses/Magic.h \
-		MalamuteCore/Registries/IdeaRegistry.h \
-		MalamuteCore/InheritedClasses/Idea.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonObject \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QJsonArray \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/qjsonarray.h \
-		MalamuteCore/Plug.h \
-		MalamuteCore/InheritedClasses/DataType.h \
-		MalamuteCore/InheritedClasses/DataTypeAttributes.h \
-		../../../Qt/5.15.2/wasm_32/include/QtCore/QStringList \
-		MalamuteCore/InheritedClasses/IdeaAttributes.h \
-		MalamuteCore/Registries/ToolbarRegistry.h \
-		Utilities/TextAreaIdea.h \
-		Utilities/TextLineIdea.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o UtilitiesPlugin.o Utilities/UtilitiesPlugin.cpp
-
 6_redopyramidvisuals.js_plugin_import.o: /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/6_redopyramidvisuals.js_plugin_import.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o 6_redopyramidvisuals.js_plugin_import.o /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/6_redopyramidvisuals.js_plugin_import.cpp
 
 6_redopyramidvisuals.js_qml_plugin_import.o: /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/6_redopyramidvisuals.js_qml_plugin_import.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o 6_redopyramidvisuals.js_qml_plugin_import.o /home/david/Documents/Qt_0_MessingAround/PromotionSimulationMetrics/6_redopyramidvisuals.js_qml_plugin_import.cpp
 
-qrc_CalculatorResources.o: qrc_CalculatorResources.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_CalculatorResources.o qrc_CalculatorResources.cpp
-
-qrc_DistributionResources.o: qrc_DistributionResources.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_DistributionResources.o qrc_DistributionResources.cpp
-
 qrc_MalamuteCoreResources.o: qrc_MalamuteCoreResources.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_MalamuteCoreResources.o qrc_MalamuteCoreResources.cpp
 
 qrc_Martell1996Resources.o: qrc_Martell1996Resources.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_Martell1996Resources.o qrc_Martell1996Resources.cpp
-
-qrc_UtilitiesResources.o: qrc_UtilitiesResources.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_UtilitiesResources.o qrc_UtilitiesResources.cpp
-
-moc_AdditionIdea.o: moc_AdditionIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_AdditionIdea.o moc_AdditionIdea.cpp
-
-moc_CalculatorPlugin.o: moc_CalculatorPlugin.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_CalculatorPlugin.o moc_CalculatorPlugin.cpp
-
-moc_DivisionIdea.o: moc_DivisionIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_DivisionIdea.o moc_DivisionIdea.cpp
-
-moc_TwoToOneIdeaTemplate.o: moc_TwoToOneIdeaTemplate.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_TwoToOneIdeaTemplate.o moc_TwoToOneIdeaTemplate.cpp
-
-moc_LabeledNumberDisplayIdea.o: moc_LabeledNumberDisplayIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_LabeledNumberDisplayIdea.o moc_LabeledNumberDisplayIdea.cpp
-
-moc_LabeledNumberInputIdea.o: moc_LabeledNumberInputIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_LabeledNumberInputIdea.o moc_LabeledNumberInputIdea.cpp
-
-moc_MultiplicationIdea.o: moc_MultiplicationIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_MultiplicationIdea.o moc_MultiplicationIdea.cpp
-
-moc_NumberDisplayIdea.o: moc_NumberDisplayIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_NumberDisplayIdea.o moc_NumberDisplayIdea.cpp
-
-moc_NumberInputIdea.o: moc_NumberInputIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_NumberInputIdea.o moc_NumberInputIdea.cpp
-
-moc_SubtractionIdea.o: moc_SubtractionIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_SubtractionIdea.o moc_SubtractionIdea.cpp
-
-moc_DistributionDisplayIdea.o: moc_DistributionDisplayIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_DistributionDisplayIdea.o moc_DistributionDisplayIdea.cpp
-
-moc_DistributionsPlugin.o: moc_DistributionsPlugin.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_DistributionsPlugin.o moc_DistributionsPlugin.cpp
-
-moc_GaussianDistributionIdea.o: moc_GaussianDistributionIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_GaussianDistributionIdea.o moc_GaussianDistributionIdea.cpp
-
-moc_DistributionTemplate.o: moc_DistributionTemplate.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_DistributionTemplate.o moc_DistributionTemplate.cpp
 
 moc_Casing.o: moc_Casing.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Casing.o moc_Casing.cpp
@@ -16263,6 +13046,12 @@ moc_Wire.o: moc_Wire.cpp
 moc_WireBackend.o: moc_WireBackend.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_WireBackend.o moc_WireBackend.cpp
 
+moc_DistributionTemplate.o: moc_DistributionTemplate.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_DistributionTemplate.o moc_DistributionTemplate.cpp
+
+moc_GaussianDistributionIdea.o: moc_GaussianDistributionIdea.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_GaussianDistributionIdea.o moc_GaussianDistributionIdea.cpp
+
 moc_Martell1996Plugin.o: moc_Martell1996Plugin.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_Martell1996Plugin.o moc_Martell1996Plugin.cpp
 
@@ -16284,17 +13073,11 @@ moc_ModifiedMartellIdea.o: moc_ModifiedMartellIdea.cpp
 moc_ModifiedMartellOrganizationLevel.o: moc_ModifiedMartellOrganizationLevel.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_ModifiedMartellOrganizationLevel.o moc_ModifiedMartellOrganizationLevel.cpp
 
+moc_NumberInputIdea.o: moc_NumberInputIdea.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_NumberInputIdea.o moc_NumberInputIdea.cpp
+
 moc_SimulationMode.o: moc_SimulationMode.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_SimulationMode.o moc_SimulationMode.cpp
-
-moc_TextAreaIdea.o: moc_TextAreaIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_TextAreaIdea.o moc_TextAreaIdea.cpp
-
-moc_TextLineIdea.o: moc_TextLineIdea.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_TextLineIdea.o moc_TextLineIdea.cpp
-
-moc_UtilitiesPlugin.o: moc_UtilitiesPlugin.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_UtilitiesPlugin.o moc_UtilitiesPlugin.cpp
 
 ####### Install
 
