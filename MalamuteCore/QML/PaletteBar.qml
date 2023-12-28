@@ -61,26 +61,29 @@ ToolBar
             id: palleteScrollBar
         }
     }
-    Text
-    {
-        anchors.horizontalCenter: videoL.horizontalCenter
 
-        anchors.verticalCenter: parent.verticalCenter
-        anchors.verticalCenterOffset: -10
-        text: "Instructional Video"
-        font.pointSize: 12
-    }
-    TextInput
+    Button
     {
         id: videoL
         anchors.right: gregEmail.left
         anchors.rightMargin: 20
+        width: 160
+        height: 52
         anchors.verticalCenter: parent.verticalCenter
-        anchors.verticalCenterOffset: 10
-        text: "https://youtu.be/SfVBMzW_4L4"
-        font.pointSize: 12
-        selectByMouse: true
-        readOnly: true;
+        text: "";
+        onClicked:
+        {
+            Qt.openUrlExternally("https://youtu.be/SfVBMzW_4L4")
+        }
+
+        Text
+        {
+            anchors.centerIn:  parent
+            text: "Open Instructional\nVideo on YouTube"
+            horizontalAlignment: Text.AlignHCenter
+            font.pointSize: 12
+        }
+
     }
 
     Text
