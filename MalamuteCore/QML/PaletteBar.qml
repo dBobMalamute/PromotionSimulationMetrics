@@ -63,21 +63,24 @@ ToolBar
     }
     Text
     {
-        id: videoL
-        anchors.right: gregEmail.left
-        anchors.rightMargin: 10
+        anchors.horizontalCenter: videoL.horizontalCenter
+
         anchors.verticalCenter: parent.verticalCenter
         anchors.verticalCenterOffset: -10
-        text: "Simulation Explanation Video"
+        text: "Instructional Video"
         font.pointSize: 12
     }
-    Text
+    TextInput
     {
-        anchors.horizontalCenter: videoL.horizontalCenter
+        id: videoL
+        anchors.right: gregEmail.left
+        anchors.rightMargin: 20
         anchors.verticalCenter: parent.verticalCenter
         anchors.verticalCenterOffset: 10
-        text: "TODO ADD"
+        text: "https://youtu.be/SfVBMzW_4L4"
         font.pointSize: 12
+        selectByMouse: true
+        readOnly: true;
     }
 
     Text
@@ -85,7 +88,7 @@ ToolBar
         anchors.horizontalCenter: gregEmail.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
         anchors.verticalCenterOffset: -10
-        text: "??? ??? ???: Greg Mitchell"
+        text: "If you have questions, please contact"
         font.pointSize: 12
     }
     TextInput
@@ -95,7 +98,7 @@ ToolBar
         anchors.rightMargin: 10
         anchors.verticalCenter: parent.verticalCenter
         anchors.verticalCenterOffset: 10
-        text: "greg.mitchell@law.virginia.edu"
+        text: "Greg Mitchell at pgm6u@virginia.edu"
         font.pointSize: 12
         selectByMouse: true
         readOnly: true;
